@@ -70,7 +70,7 @@ export function FeaturedWorks() {
                     </p>
                     
                     <Link href={project.link}>
-                      <button className="group inline-flex items-center gap-3 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold uppercase tracking-wider text-sm px-6 py-3 transition-all duration-300 ease-out cursor-pointer">
+                      <button className="w-full justify-center group inline-flex items-center gap-3 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold uppercase tracking-wider text-sm px-6 py-3 transition-all duration-300 ease-out cursor-pointer">
                         <span>{project.cta}</span>
                         <span className="w-2 h-2 rotate-45 border border-primary-foreground group-hover:bg-primary-foreground group-hover:rotate-[225deg] transition-all duration-300 ease-out" />
                       </button>
