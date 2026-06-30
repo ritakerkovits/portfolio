@@ -405,7 +405,7 @@ export function CaseStudyContent() {
         
 
       
-      
+    
       
     </article>
     

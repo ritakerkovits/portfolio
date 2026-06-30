@@ -24,7 +24,7 @@ export function HeroSection() {
             <div className="flex flex-col gap-4 md:flex-row w-full">
               <Button 
                 size="lg" 
-                className="w-full md:w-auto bg-primary text-primary-foreground hover:bg-primary/90 rounded-none"
+                className="w-full md:w-auto px-10 py-6 text-md bg-primary text-primary-foreground hover:bg-primary/90 rounded-none"
                 asChild // Transfers styling properties to the internal anchor element
               >
                 <a href="/#work" className="justify-center">
@@ -35,14 +35,14 @@ export function HeroSection() {
                   size="lg"
                   variant="outline"
                   // Cleaned: All color swaps and animations are now unified on the parent button container
-                  className="w-full md:w-auto group border border-primary dark:border-border text-foreground bg-card rounded-none transition-all duration-300 ease-out hover:bg-primary hover:text-background dark:hover:bg-primary "
+                  className="w-full md:w-auto  py-6 text-md group border border-primary dark:border-border text-foreground bg-card rounded-none transition-all duration-300 ease-out hover:bg-primary hover:text-background dark:hover:bg-primary "
                   asChild 
                 >
                   <a 
                     href="/CV_Rita.pdf" 
                     target="_blank"          
                     rel="noopener noreferrer" 
-                    className="inline-flex items-center justify-center gap-2"
+                    className="inline-flex items-center justify-center gap-2 "
                   >
                     <span>View my CV</span>
                     <ArrowUpRight 

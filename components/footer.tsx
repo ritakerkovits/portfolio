@@ -49,7 +49,7 @@ export function Footer() {
                 
               </div>
               <div className="flex gap-4 pt-2">
-                <a href="https://www.linkedin.com/in/rita-kerkovits/" className="text-black/80 hover:text-black transition-colors dark:text-white/60 dark:hover:text-white">
+                <a href="https://www.linkedin.com/in/rita-kerkovits/" target="_blank"   className="text-black/80 hover:text-black transition-colors dark:text-white/60 dark:hover:text-white">
                   LinkedIn
                 </a>
                 
