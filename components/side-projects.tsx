@@ -42,12 +42,12 @@ export function SideProjects() {
           {projects.map((project) => (
             <div key={project.title} className="grid md:grid-cols-2 gap-12 items-center">
               <div className={project.reversed ? "md:order-2" : ""}>
-                <div className="relative w-full overflow-hidden rounded-2xl bg-gray-100 aspect-[4/3]">
+                <div className="relative w-full overflow-hidden  bg-gray-100 aspect-[4/3]">
                   <ExpandableImage
                     src={project.image}
                     alt={project.alt}
                     fill
-                    imageClassName="rounded-lg"
+                    
                   />
                 </div>
               </div>

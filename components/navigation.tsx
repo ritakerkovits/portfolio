@@ -191,10 +191,7 @@ export function Navigation() {
               {underlineElement("/about")}
             </Link>
             
-            <Link href="/#contact" className={`group ${linkStyles("/#contact")}`}>
-              Connect
-              {underlineElement("/#contact")}
-            </Link>
+           
           </div>
 
           {/* MOBILE TOGGLE BUTTON: strictly isolated to mobile screen dimensions via md:hidden */}

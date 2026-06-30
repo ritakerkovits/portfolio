@@ -21,13 +21,13 @@ export function HeroSection() {
               thoughtful design and strategic thinking.
             </p>
 
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-col gap-4 md:flex-row w-full">
               <Button 
                 size="lg" 
-                className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-none"
+                className="w-full md:w-auto bg-primary text-primary-foreground hover:bg-primary/90 rounded-none"
                 asChild // Transfers styling properties to the internal anchor element
               >
-                <a href="/#work">
+                <a href="/#work" className="justify-center">
                   View My Work
                 </a>
               </Button>
@@ -35,14 +35,14 @@ export function HeroSection() {
                   size="lg"
                   variant="outline"
                   // Cleaned: All color swaps and animations are now unified on the parent button container
-                  className="group border border-primary dark:border-border text-foreground bg-card rounded-none transition-all duration-300 ease-out hover:bg-primary hover:text-background dark:hover:bg-primary "
+                  className="w-full md:w-auto group border border-primary dark:border-border text-foreground bg-card rounded-none transition-all duration-300 ease-out hover:bg-primary hover:text-background dark:hover:bg-primary "
                   asChild 
                 >
                   <a 
                     href="/CV_Rita.pdf" 
                     target="_blank"          
                     rel="noopener noreferrer" 
-                    className="inline-flex items-center gap-2"
+                    className="inline-flex items-center justify-center gap-2"
                   >
                     <span>View my CV</span>
                     <ArrowUpRight 
@@ -55,7 +55,7 @@ export function HeroSection() {
           </div>
 
           {/* Right image */}
-          <div className="relative flex justify-end">
+          <div className="relative flex justify-center md:justify-end">
             <div className="relative overflow-hidden shadow-2xl w-4/5 lg:w-3/4">
               <Image
                 src="/modern-designer-workspace-with-computer-and-plants.jpg"

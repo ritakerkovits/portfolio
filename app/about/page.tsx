@@ -43,7 +43,7 @@ export default function AboutPage() {
                   size="lg"
                   variant="outline"
                   // Cleaned: All color swaps and animations are now unified on the parent button container
-                  className="group border border-primary dark:border-border text-foreground bg-card rounded-none transition-all duration-300 ease-out hover:bg-primary hover:text-background dark:hover:bg-primary "
+                  className="w-full md:w-auto  group border border-primary dark:border-border text-foreground bg-card rounded-none transition-all duration-300 ease-out hover:bg-primary hover:text-background dark:hover:bg-primary "
                   asChild 
                 >
                   <a 
@@ -62,7 +62,7 @@ export default function AboutPage() {
               </div>
 
               {/* Portrait Image */}
-              <div className="relative flex justify-end">
+              <div className="relative flex justify-center md:justify-end">
                 <div className="relative overflow-hidden shadow-2xl w-4/5 lg:w-3/4">
                   <img
                     src="/profile.jpg"
