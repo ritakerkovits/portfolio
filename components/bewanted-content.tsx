@@ -22,12 +22,12 @@ export function CaseStudyContent() {
         <h2 className="text-3xl font-medium text-foreground">Objectives</h2>
         <div className="prose prose-lg max-w-none">
           <p className="text-muted-foreground leading-relaxed">
-            The goal of this project was to design and update the website and promotional materials for beWANTED, an annual career event organized by TU Wien. The event provides TU Wien students with scheduled, one-on-one sessions with company representatives, offering a structured alternative to traditional career fairs.
+            The goal of this project was to redesign the website and update promotional materials for beWANTED, an annual career event hosted by TU Wien. The event connects TU Wien students with company representatives through scheduled one-on-one sessions, offering a more organized and personal alternative to typical career fairs.
           </p>
           
           <br />
           <p className="text-muted-foreground leading-relaxed">
-            I was responsible for the complete website design, as well as the event poster. I collaborated closely with the PR team, specifically working alongside the Campus PR and Digital PR divisions to ensure cohesive communication across all channels.
+            I was responsible for the complete website design, as well as the event poster. Throughout the project, I worked closely with the PR team, especially the Campus PR and Digital PR divisions, to make sure all communications were clear and consistent across every channel.
           </p>
         </div>
       </section>
@@ -35,7 +35,7 @@ export function CaseStudyContent() {
         <h2 className="text-3xl font-medium text-foreground">Problem</h2>
         <div className="prose prose-lg max-w-none">
           <p className="text-muted-foreground leading-relaxed mb-6">
-            The beWANTED website serves as the primary platform for TU Wien students to explore participating companies and apply for interview slots. However, as the main entry point to the event, it lacked clear, reliable information and a seamless user experience, which hindered student engagement and the application process for the event.
+            The beWANTED website is the main place where TU Wien students explore participating companies and sign up for interview slots. However, the old site lacked clear and reliable information, making it hard for students to engage and apply smoothly.
           </p>
           
           <ul className="space-y-10 mb-6">
@@ -44,12 +44,11 @@ export function CaseStudyContent() {
               <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
               <div className="flex flex-col gap-2">
                 <p className="text-foreground font-semibold text-lg leading-snug group-hover:text-[#beee2b] transition-colors">
-                  The old website was outdated
+                  Outdated content
                 </p>
                 <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                  The previous website did not contain relevant information. Even though there is not an event running, it should communicate a "Stay tuned" message or refer to the upcoming event. 
-                  <br />
-                  The content was no longer accurate as several companies from previous years were not participating this year.
+                  The previous website didn't provide up-to-date information. Even when the event wasn't happening, it didn't clearly communicate that students should "stay tuned" or when the next event would be. Some company listings were also outdated, showing participants from past years who weren't involved this time.
+                  
                 </p>
               </div>
             </li>
@@ -62,7 +61,7 @@ export function CaseStudyContent() {
                   Inconsistent visual style
                 </p>
                 <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                  Inconsistent typography and colors were used throughout the site. This lack of visual harmony made the website appear unpolished and reduced trust in the platform.
+                  The site used different fonts and colors inconsistently, which made it look unpolished and less trustworthy.
                 </p>
               </div>
             </li>
@@ -75,7 +74,7 @@ export function CaseStudyContent() {
                   The need for reliable information
                 </p>
                 <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                  Given that the website functions as the official source of information and the application portal, it was essential to redesign it to ensure clarity, consistency, and ease of use.
+                  Since the website is the official source for event details and applications, it was crucial to redesign it to be clear, consistent, and easy to use.
                 </p>
               </div>
             </li>
@@ -97,10 +96,10 @@ export function CaseStudyContent() {
             <ArrowRight className="w-4 h-4 stroke-[3] text-emerald-900 dark:text-[#d4ff00] mt-1 shrink-0" />
             <div className="flex flex-col gap-2">
               <p className="text-lg font-semibold text-foreground leading-snug ">
-                Increase the number of applications
+                Encourage more applications
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                The redesigned website aimed to encourage more students to apply for interview slots by offering a clear, engaging interface and easy navigation.
+                The redesigned website aimed to make it easy and inviting for students to apply for interview slots through a clear and engaging interface.
               </p>
             </div>
           </li>
@@ -110,10 +109,10 @@ export function CaseStudyContent() {
             <ArrowRight className="w-4 h-4 stroke-[3] text-emerald-900 dark:text-[#d4ff00] mt-1 shrink-0" />
             <div className="flex flex-col gap-2">
               <p className="text-lg font-semibold text-foreground leading-snug">
-                Establish a consistent visual design
+                Create a consistent visual identity
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Both the website and physical materials, such as posters, needed to follow a cohesive design language to reinforce brand identity and create a seamless user experience across digital and offline platforms.
+                Both the website and printed materials like posters, flyers needed a unified look to strengthen the brand across online and offline channels.
               </p>
             </div>
           </li>
@@ -126,7 +125,7 @@ export function CaseStudyContent() {
                 Provide a clear platform for students
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                The website was designed to serve as an intuitive, straightforward hub where students could easily find event information, browse participating companies, and submit applications for interviews.
+                The site was designed to be a simple, intuitive hub where students can quickly find event details, explore participating companies, and submit their interview applications.
               </p>
             </div>
           </li>
@@ -138,14 +137,14 @@ export function CaseStudyContent() {
       <section id="process" className="scroll-mt-24 space-y-8">
         <h2 className="text-3xl font-medium text-foreground">Process</h2>
         <p className="text-muted-foreground leading-relaxed">
-            Since this was a relatively small project, I attended monthly marketing team meetings and event team meetings. The purpose of these meetings was to test the current design and ensure alignment on the shared goal: <span className="text-primary italic font-medium">increasing the number of applications</span>. These regular check-ins helped refine the design direction and confirm that the project was on track.
+            Since this was a smaller project, I joined monthly marketing and event team meetings to review the current design and make sure we were all focused on the same goal: <span className="text-primary italic font-medium">increasing the number of applications</span>. These regular check-ins helped shape the design and kept the project moving in the right direction.
           </p>
 
         {/* Visual Design Language */}
         <div className="space-y-4">
           <h3 className="text-xl font-medium text-foreground">Research</h3>
           <p className="text-muted-foreground leading-relaxed">
-            I began by conducting competitive research, analyzing websites of similar career events. This helped me identify key strengths and weaknesses in their design. Key insights from this research included the importance of clear navigation, intuitive layouts, and easy access to event details and application forms.
+            I started by researching similar career event websites to see what worked well and what didn't. This showed me the importance of clear navigation, simple layouts, and easy access to event details and application forms.
           </p>
           
         </div>
@@ -179,25 +178,22 @@ export function CaseStudyContent() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
   
             {/* Left Card: Color Palette */}
-            <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden ">
+            <div className="w-full rounded-lg overflow-hidden ">
               <ExpandableImage
-                src="/bewanted/color_palette.png"
+                src="/bewanted/color_palette.svg"
                 alt="A curated color palette consisting of primary, secondary, and accent colors for the design system."
-                fill
-                className="object-contain rounded-md  shadow-2xl"
-                sizes="(max-width: 768px) 100vw, 50vw" 
-                priority
+                className="w-full h-auto object-contain rounded-md shadow-2xl"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
 
             {/* Right Card: Color Shades */}
-            <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden ">
+            <div className="w-full rounded-lg overflow-hidden ">
               <ExpandableImage
-                src="/bewanted/color_shades.png"
+                src="/bewanted/color_shades.svg"
                 alt="A UI design reference chart displaying a single base color with its various tint and shade variations for interface states."
-                fill
-                className="object-contain rounded-md shadow-2xl"
-                sizes="(max-width: 768px) 100vw, 50vw"
+                className="w-full h-auto object-contain rounded-md shadow-2xl"
+              sizes="(max-width: 768px) 100vw, 50vw"
               />
               
             </div>
@@ -212,12 +208,12 @@ export function CaseStudyContent() {
           <p className="text-muted-foreground leading-relaxed">
             TEXT HERE
           </p>
-          <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden from-slate-800 to-slate-900">
+          <div className="w-full rounded-lg overflow-hidden ">
             <ExpandableImage
-              src="/bewanted/Logos.png"
+              src="/bewanted/Logos.svg"
               alt="A collection of logo design iterations showcasing the necessary logos of TU WIEN, beWANTED, HTU WIEN, and BEST Vienna in various color combinations and background contrasts."
-              fill
-              className="object-contain"
+              className="w-full h-auto object-contain rounded-md shadow-2xl"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
         </div>
@@ -230,24 +226,21 @@ export function CaseStudyContent() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
   
             {/* Left Card: Color Palette */}
-            <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden ">
+            <div className="w-full rounded-lg overflow-hidden ">
               <ExpandableImage
-                src="/bewanted/Font_Open_Sans.png"
+                src="/bewanted/Font_Open_Sans.svg"
                 alt="Examples of the Open Sans font in different sizes and thicknesses."
-                fill
-                className="object-contain rounded-md  shadow-2xl"
-                sizes="(max-width: 768px) 100vw, 50vw" // Helps the browser download the optimal image size based on the viewport
-                priority
+                className="w-full h-auto object-contain rounded-md shadow-2xl"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
 
             {/* Right Card: Color Shades */}
-            <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden ">
+            <div className="w-full rounded-lg overflow-hidden">
               <ExpandableImage
-                src="/bewanted/Font_Montserrat.png"
+                src="/bewanted/Font_Montserrat.svg"
                 alt="Examples of the Montserrat font in different sizes and thicknesses."
-                fill
-                className="object-contain rounded-md shadow-2xl"
+                className="w-full h-auto object-contain rounded-md shadow-2xl"
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>

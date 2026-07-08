@@ -4,6 +4,7 @@ import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 
 
+
 /*dark:bg-[#03271a]*/
 
 export default function AboutPage() {
@@ -43,22 +44,18 @@ export default function AboutPage() {
                   size="lg"
                   variant="outline"
                   // Cleaned: All color swaps and animations are now unified on the parent button container
-                  className="w-full md:w-auto  group border border-primary dark:border-border text-foreground bg-card rounded-none transition-all duration-300 ease-out hover:bg-primary hover:text-background dark:hover:bg-primary "
+                  className="w-full md:w-auto px-6 py-6 text-md  group border border-primary dark:border-border text-foreground bg-card rounded-none transition-all duration-300 ease-out hover:bg-primary hover:text-background dark:hover:bg-primary "
                   asChild 
                 >
-                  <a 
-                    href="/CV_Rita.pdf" 
-                    target="_blank"          
-                    rel="noopener noreferrer" 
-                    className="inline-flex items-center gap-2"
-                  >
-                    <span>View my CV</span>
-                    <ArrowUpRight 
-                      // Refined: Increased translation vectors to make the upward-right diagonal slip highly visible
-                      className="w-4 h-4 transition-transform duration-300 ease-out transform group-hover:translate-x-1 group-hover:-translate-y-1" 
-                    />
-                  </a>
+                  <a href="https://www.linkedin.com/in/rita-kerkovits/" target="_blank"  className="justify-center">
+                  Connect with me on LinkedIn
+                <ArrowUpRight 
+                  className="w-4 h-4 transition-transform duration-300 ease-out transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" 
+                />
+                </a>
+                
                 </Button>
+                
               </div>
 
               {/* Portrait Image */}

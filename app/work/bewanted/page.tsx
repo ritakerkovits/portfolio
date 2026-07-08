@@ -4,6 +4,7 @@ import { Navigation } from "@/components/navigation"
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 import { ExpandableImage } from "@/components/image-lightbox"
+import { Footer } from "react-day-picker"
 
 const projectInfo = {
   timeline: "December 2024 – March 2025",
@@ -46,8 +47,8 @@ export default function FintechCaseStudy() {
           {/* Hero Visual - Centered Image with Rounded Corners */}
           <div className="relative w-full max-w-5xl mx-auto mb-16">
             <div className="relative aspect-[16/9] rounded-sm overflow-hidden shadow-xl ">
-              <img
-                src="/bewanted/Mockups.png"
+              <ExpandableImage
+                src="/bewanted/bewanted_cover.png"
                 alt="beWANTED website mockups showing desktop and mobile views"
                 className="w-full h-full object-cover"
               />
@@ -107,6 +108,7 @@ export default function FintechCaseStudy() {
           <CaseStudyContent />
         </div>
       </div>
+      <Footer />
     </main>
   )
 }

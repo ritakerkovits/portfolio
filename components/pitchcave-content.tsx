@@ -19,7 +19,7 @@ export function BrandIdentityContent() {
         <h2 className="text-3xl font-bold text-foreground">Objectives</h2>
         <div className="prose prose-lg max-w-none">
           <p className="text-muted-foreground leading-relaxed">
-            A comprehensive overhaul of a service-based website, modernizing the visual identity and restructuring the user experience to serve a diverse audience of students, professionals, and corporate partners.
+            Redesign and rebrand an existing service-based website to create a more intuitive interface and provide richer content. The goal was to modernize the visual identity and improve the user experience for a diverse audience, including students, professionals, and corporate partners.
           </p>
           <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">Design Goals</h3>
           <ul className="space-y-2 text-muted-foreground">
@@ -39,7 +39,7 @@ export function BrandIdentityContent() {
         <div className="space-y-4">
           
           <p className="text-muted-foreground leading-relaxed">
-            With three distinct target groups, young professionals, company representatives and speakers, the primary challenge was to create a unified experience that provided relevant, accessible information to each group without overwhelming the visitor.
+            With three distinct target groups, young professionals, company representatives, and speakers, the main challenge was to design a unified experience that delivers relevant and easy-to-find information for each audience without overwhelming visitors.
           </p>
           
         </div>
@@ -71,10 +71,10 @@ export function BrandIdentityContent() {
               <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0" />
               <div className="flex flex-col gap-2">
                 <p className="text-foreground font-semibold text-lg leading-snug">
-                  Modernize brand identity
+                  Refresh the brand look
                 </p>
                 <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                  Develop a fresh color palette and typography system that balances youthful energy with corporate professionalism.
+                  Choose colors and fonts that feel both energetic and professional to appeal to all audiences.
                 </p>
               </div>
             </li>
@@ -87,7 +87,7 @@ export function BrandIdentityContent() {
                   Scale the Platform
                 </p>
                 <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                  Extend the site's footprint with new, high-conversion pages while improving the responsiveness and accessibility of existing layouts.
+                  Add new pages that encourage engagement and make sure the whole site works smoothly on any device.
                 </p>
               </div>
             </li>
@@ -102,11 +102,11 @@ export function BrandIdentityContent() {
       <section id="process" className="scroll-mt-24 space-y-8">
         <h2 className="text-3xl font-bold text-foreground">Process</h2>
 
-        {/* Logo Exploration */}
+        {/* Discovery & Requirements */}
         <div className="space-y-4">
           <h3 className="text-xl font-semibold text-foreground">Discovery & Requirements</h3>
           <p className="text-muted-foreground leading-relaxed">
-            The process began with deep-dive stakeholder interviews to extract business goals, and I conducted competitive benchmarking against modern industry leaders to identify best practices. 
+            The process began with a deep-dive client interview to understand their needs and business goals. I also conducted benchmarking by analyzing websites in the same industry to identify trends and gather inspiration.
           </p>
           
         </div>
@@ -115,7 +115,7 @@ export function BrandIdentityContent() {
         <div className="space-y-4">
           <h3 className="text-xl font-semibold text-foreground">Information Architecture</h3>
           <p className="text-muted-foreground leading-relaxed">
-            To manage the complexity of the new pages and content, I first developed a comprehensive Information Architecture (IA) to understand the connections within the page and clearly communicate the structure. 
+            To handle the complexity of the new pages and content, I started by creating a clear Information Architecture (IA) that mapped out how everything connects and helped communicate the site's structure. 
           </p>
           <div className="relative w-full h-auto rounded-xl overflow-hidden from-slate-800 to-slate-900">
             <ExpandableImage
@@ -127,37 +127,88 @@ export function BrandIdentityContent() {
               sizes="(max-width: 768px) 100vw, 80vw"
             />
           </div>
-          <p className="text-muted-foreground leading-relaxed">
-            To manage the complexity of the new pages and content, I first developed a comprehensive Information Architecture (IA) to understand the connections within the page and clearly communicate the structure. 
-          </p>
+        </div>
+
+        <div className="space-y-4">
           <h3 className="text-xl font-semibold text-foreground">Wireframes</h3>
           <p className="text-muted-foreground leading-relaxed">
-            The rebranding phase focused on creating a versatile, modern aesthetic. I curated a triadic color palette, performing rigorous WCAG contrast audits on the main color pairings to guarantee an inclusive experience. 
+          Next, I turned this structure into low-fidelity wireframes, giving a simple visual layout that let the client review and confirm the content hierarchy and user flows before moving on to detailed design
           </p>
           <div className="relative w-full h-auto rounded-xl overflow-hidden from-slate-800 to-slate-900">
-            <ExpandableImage
-              src="/bewanted/wireframes.png"
-              alt="A low-fidelity wireframe layout showing the structural skeleton and placement of UI elements on a webpage."
-              width={3150} 
-              height={1600} 
-              className="object-contain"
-              sizes="(max-width: 768px) 100vw, 80vw"
-            />
+          <ExpandableImage
+            src="/bewanted/wireframes.png"
+            alt="A low-fidelity wireframe layout showing the structural skeleton and placement of UI elements on a webpage."
+            width={3150} 
+            height={1600} 
+            className="object-contain"
+            sizes="(max-width: 768px) 100vw, 80vw"
+          />
           </div>
-          <h3 className="text-xl font-semibold text-foreground">Typography</h3>
+        </div>
+        
+        <div className="space-y-4">
+          <h3 className="text-xl font-medium text-foreground">Typography</h3>
           <p className="text-muted-foreground leading-relaxed">
-            For typography, I selected Frutiger and SF Pro Display for their high legibility and professional-yet-approachable feel. Throughout the build, I maintained an agile feedback loop with the client, ensuring every milestone was met with total alignment. 
+            For typography, I selected Frutiger and SF Pro Display because they are highly readable and strike the right balance between professional and approachable. Throughout the process, I kept an open feedback loop with the client to make sure every step aligned with their vision.
           </p>
-          <div className="relative w-full h-auto rounded-xl overflow-hidden from-slate-800 to-slate-900">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+  
+            {/* Left Card: Color Palette */}
+            <div className="w-full rounded-lg overflow-hidden ">
+              <ExpandableImage
+                src="/moneymate/geologica.svg"
+                alt="Examples of the Geologica font in different sizes and thicknesses."
+                className="w-full h-autoobject-contain rounded-md shadow-2xl"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </div>
+
+            {/* Right Card: Color Shades */}
+            <div className="w-full rounded-lg overflow-hidden">
+              <ExpandableImage
+                src="/moneymate/arvo.svg"
+                alt="Examples of the Arvo font in different sizes and thicknesses."
+                className="w-full h-autoobject-contain rounded-md shadow-2xl"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </div>
+
+          </div>
+        </div>
+
+      
+          
+          
+  
+
+        <div className="space-y-4">
+          <h3 className="text-xl font-semibold text-foreground">Color Palette</h3>
+          <p className="text-muted-foreground leading-relaxed">
+            During the rebranding phase, I focused on developing a versatile, modern look. I chose a triadic color palette and carefully tested the main color combinations with WCAG contrast audits to ensure an inclusive experience.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+            <div className="w-full rounded-lg overflow-hidden ">
             <ExpandableImage
-              src="/bewanted/wireframes.png"
-              alt="A low-fidelity wireframe layout showing the structural skeleton and placement of UI elements on a webpage."
-              width={3150} 
-              height={1600} 
-              className="object-contain"
-              sizes="(max-width: 768px) 100vw, 80vw"
+              src="/moneymate/color_palette.svg"
+              alt="Color palette for the design system"
+              className="w-full h-auto object-contain rounded-md shadow-2xl"
+              sizes="(max-width: 768px) 100vw, 50vw" 
+              
             />
           </div>
+          <div className="w-full rounded-lg overflow-hidden ">
+            <ExpandableImage
+              src="/moneymate/color_shades.svg"
+              alt="Color shades for the design system"
+              className="w-full h-auto object-contain rounded-md shadow-2xl"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
+            
+          </div>
+          </div>
+          
+            
+          
           
         </div>
       </section>
@@ -189,7 +240,7 @@ export function BrandIdentityContent() {
       <section id="testing" className="scroll-mt-24 space-y-6">
         <h2 className="text-3xl font-bold text-foreground">Testing</h2>
         <p className="text-muted-foreground leading-relaxed">
-          To validate the design, I conducted brief testing sessions with potential audiences, mostly with students and young professionals. The feedback was overwhelmingly positive, with 100% of participants rating the new design as &quot;modern&quot; and &quot;premium&quot;. The visual identity successfully communicated the brand values, and the new information architecture made it easier for users to find relevant content.
+          To validate the design, I conducted brief testing sessions with potential audiences, mostly with students and young professionals. The feedback was overwhelmingly positive, with 100% of participants rating the new design as &quot;modern&quot; and &quot;premium&quot;. 
         </p>
         
         
@@ -209,10 +260,10 @@ export function BrandIdentityContent() {
               <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0" />
               <div className="flex flex-col gap-2">
                 <p className="text-foreground font-semibold text-lg leading-snug">
-                  Client Autonomy & Operational Efficiency
+                  Empowering the Client
                 </p>
                 <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                  Developed a streamlined event management system within a custom CMS structure. This empowered the internal team to independently add and update events without requiring technical knowledge, reducing maintenance friction.
+                  I built a simple event management system within a custom CMS, making it easy for the team to add and update events on their own no technical skills needed. 
                   
                 </p>
               </div>
@@ -223,26 +274,15 @@ export function BrandIdentityContent() {
               <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0" />
               <div className="flex flex-col gap-2">
                 <p className="text-foreground font-semibold text-lg leading-snug">
-                  Technical Accessibility Excellence
+                  Strong Focus on Accessibility
                 </p>
                 <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                  Achieved a 95% Accessibility score via Lighthouse audits. By optimizing the site to the highest possible threshold within the platform's constraints, I ensured a more inclusive experience for users with diverse needs.
+                  The site scored 95% on Lighthouse accessibility audits. By optimizing within the platform's limits, I made sure the experience is welcoming and usable for people with different needs.
                 </p>
               </div>
             </li>
 
-            <li className="flex items-start gap-4">
-              {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
-              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0" />
-              <div className="flex flex-col gap-2">
-                <p className="text-foreground font-semibold text-lg leading-snug">
-                  Modernized Brand Identity
-                </p>
-                <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                  Successfully pivoted the visual direction from an outdated aesthetic to a cohesive, contemporary digital presence. This shift was validated by 100% positive stakeholder feedback, confirming that the new look better resonates with the target student and corporate demographics.
-                </p>
-              </div>
-            </li>
+            
           </ul>
 
       </section>
@@ -253,34 +293,34 @@ export function BrandIdentityContent() {
 
         {/* List */}
         <div className="space-y-2">
-          <p className="text-lg font-semibold text-foreground">WIX website builder</p>
+          <p className="text-lg font-semibold text-foreground">Getting comfortable with Wix</p>
           <p className="text-muted-foreground leading-relaxed">
-            Choosing Wix was a strategic decision based on the client's existing comfort level. This project allowed me to master a new site-builder's logic, expanding my technical versatility.
+            Choosing Wix was a strategic decision since the client was already familiar with it. This project helped me learn how to work effectively with a new site builder, broadening my technical skills.
           </p>
           
         </div>
 
         <div className="space-y-2">
-          <p className="text-lg font-semibold text-foreground">Documentation of process</p>
+          <p className="text-lg font-semibold text-foreground">Keeping everything organized</p>
           <p className="text-muted-foreground leading-relaxed">
-            Maintaining a "single source of truth" for research, ideation, and technical requirements kept the project on track and served as a vital reference point for both the client and myself. I now view documentation not as a task, but as a safeguard against scope creep and misalignment.
+            Keeping a clear, single source of truth for research, ideas, and technical details helped keep the project on track. I now see documentation not just as a task, but as a way to prevent misunderstandings and keep everyone aligned.
           </p>
           
         </div>
 
 
         <div className="space-y-2">
-          <p className="text-lg font-semibold text-foreground">Accessibility aspects</p>
+          <p className="text-lg font-semibold text-foreground">Putting Accessibility into practice</p>
           <p className="text-muted-foreground leading-relaxed">
-            This project served as a significant milestone in my professional evolution. While I had previously studied the theory of inclusive design, this was the first time I moved from simply knowing the guidelines to intentionally implementing them from day one. This involved the intentional application of accessible color contrast, screen-reader optimization with descriptive alt-text, or a logical content hierarchy among others.
+            This project was a big step in my growth. While I'd studied inclusive design before, this was the first time I actively applied accessibility principles from the very start - like choosing accessible colors, adding descriptive alt text, or logical content hierarchy.
           </p>
           
         </div>
 
         <div className="space-y-2">
-          <p className="text-lg font-semibold text-foreground">Iterative feedback loop</p>
+          <p className="text-lg font-semibold text-foreground">The power of regular feedback</p>
           <p className="text-muted-foreground leading-relaxed">
-            Regular client check-ins taught me the value of progressive approval. By showing wireframes early and often, we avoided major revisions at the development stage, keeping the project within the original timeline and scope.
+            Frequent check-ins with the client showed me how valuable early and ongoing feedback is. Sharing wireframes often helped us avoid major changes later on, keeping the project on schedule and within scope.
           </p>
           
         </div>

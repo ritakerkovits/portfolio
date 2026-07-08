@@ -24,7 +24,7 @@ export function HeroSection() {
             <div className="flex flex-col gap-4 md:flex-row w-full">
               <Button 
                 size="lg" 
-                className="w-full md:w-auto px-10 py-6 text-md bg-primary text-primary-foreground hover:bg-primary/90 rounded-none"
+                className="w-full md:w-auto px-6 py-6 text-md bg-primary text-primary-foreground hover:bg-primary/90 rounded-none"
                 asChild // Transfers styling properties to the internal anchor element
               >
                 <a href="/#work" className="justify-center">

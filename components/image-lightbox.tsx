@@ -130,7 +130,7 @@ export function LightboxProvider({ children }: { children: React.ReactNode }) {
             type="button"
             onClick={closeLightbox}
             aria-label="Close expanded image"
-            className="absolute top-6 right-6 z-10 flex items-center justify-center w-10 h-10 rounded-full bg-background/10 text-background hover:bg-background/20 transition-colors"
+            className="absolute top-6 right-6 z-10 flex items-center justify-center w-10 h-10 rounded-full bg-background/10 text-background hover:bg-background/20 transition-colors cursor-pointer"
           >
             <X className="w-5 h-5" />
           </button>
@@ -138,18 +138,18 @@ export function LightboxProvider({ children }: { children: React.ReactNode }) {
           {/* Zoom controls */}
           <div
             onClick={(e) => e.stopPropagation()}
-            className="absolute bottom-6 left-1/2 z-10 flex -translate-x-1/2 items-center gap-1 rounded-full bg-background/10 p-1 backdrop-blur-sm"
+            className="absolute bottom-6 left-1/2 z-10 flex -translate-x-1/2 items-center gap-1 rounded-full bg-background/10 p-1 backdrop-blur-sm cursor-pointer"
           >
             <button
               type="button"
               onClick={zoomOut}
               disabled={zoom <= MIN_ZOOM}
               aria-label="Zoom out"
-              className="flex items-center justify-center w-10 h-10 rounded-full text-background hover:bg-background/20 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+              className="flex items-center justify-center w-10 h-10 rounded-full text-background hover:bg-background/20 transition-colors disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
             >
               <ZoomOut className="w-5 h-5" />
             </button>
-            <span className="min-w-14 text-center text-sm font-medium tabular-nums text-background">
+            <span className="min-w-14 text-center text-sm font-medium tabular-nums text-background cursor-pointer">
               {Math.round(zoom * 100)}%
             </span>
             <button
@@ -157,7 +157,7 @@ export function LightboxProvider({ children }: { children: React.ReactNode }) {
               onClick={zoomIn}
               disabled={zoom >= MAX_ZOOM}
               aria-label="Zoom in"
-              className="flex items-center justify-center w-10 h-10 rounded-full text-background hover:bg-background/20 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+              className="flex items-center justify-center w-10 h-10 rounded-full text-background hover:bg-background/20 transition-colors disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
             >
               <ZoomIn className="w-5 h-5" />
             </button>
@@ -166,7 +166,7 @@ export function LightboxProvider({ children }: { children: React.ReactNode }) {
               onClick={resetZoom}
               disabled={zoom === MIN_ZOOM && offset.x === 0 && offset.y === 0}
               aria-label="Reset zoom"
-              className="flex items-center justify-center w-10 h-10 rounded-full text-background hover:bg-background/20 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+              className="flex items-center justify-center w-10 h-10 rounded-full text-background hover:bg-background/20 transition-colors disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
             >
               <RotateCcw className="w-5 h-5" />
             </button>

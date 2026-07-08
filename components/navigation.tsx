@@ -116,6 +116,8 @@ import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { useEffect, useState } from "react"
 import { Logo } from "@/components/logo"
+import { ArrowUpRight } from "lucide-react"
+import { Button } from "./ui/button"
 
 export function Navigation() {
   const pathname = usePathname()
@@ -190,6 +192,19 @@ export function Navigation() {
               About Me
               {underlineElement("/about")}
             </Link>
+            <Link 
+              href="/CV_Rita.pdf" 
+              target="_blank"          
+              rel="noopener noreferrer"
+              className={`group inline-flex items-center gap-1 ${linkStyles("/CV_Rita.pdf")}`}
+            >
+              <span>Resume</span>
+              <ArrowUpRight 
+                className="w-4 h-4 transition-transform duration-300 ease-out transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" 
+              />
+              {underlineElement("/CV_Rita.pdf")}
+            </Link>
+
             
            
           </div>
