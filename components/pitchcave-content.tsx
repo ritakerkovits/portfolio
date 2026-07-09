@@ -119,8 +119,8 @@ export function BrandIdentityContent() {
           </p>
           <div className="relative w-full h-auto rounded-xl overflow-hidden from-slate-800 to-slate-900">
             <ExpandableImage
-              src="/bewanted/wireframes.png"
-              alt="A low-fidelity wireframe layout showing the structural skeleton and placement of UI elements on a webpage."
+              src="/pitchcave/information_architecture.webp"
+              alt="Information Architecture diagram for the PitchCave website"
               width={3150} 
               height={1600} 
               className="object-contain"
@@ -136,7 +136,17 @@ export function BrandIdentityContent() {
           </p>
           <div className="relative w-full h-auto rounded-xl overflow-hidden from-slate-800 to-slate-900">
           <ExpandableImage
-            src="/bewanted/wireframes.png"
+            src="/pitchcave/wireframe_1.webp"
+            alt="A low-fidelity wireframe layout showing the structural skeleton and placement of UI elements on a webpage."
+            width={3150} 
+            height={1600} 
+            className="object-contain"
+            sizes="(max-width: 768px) 100vw, 80vw"
+          />
+          </div>
+          <div className="relative w-full h-auto rounded-xl overflow-hidden from-slate-800 to-slate-900">
+          <ExpandableImage
+            src="/pitchcave/wireframe_2.webp"
             alt="A low-fidelity wireframe layout showing the structural skeleton and placement of UI elements on a webpage."
             width={3150} 
             height={1600} 
@@ -156,8 +166,8 @@ export function BrandIdentityContent() {
             {/* Left Card: Color Palette */}
             <div className="w-full rounded-lg overflow-hidden ">
               <ExpandableImage
-                src="/moneymate/geologica.svg"
-                alt="Examples of the Geologica font in different sizes and thicknesses."
+                src="/pitchcave/sf_pro.svg"
+                alt="Examples of the SF Pro Display font in different sizes and thicknesses."
                 className="w-full h-autoobject-contain rounded-md shadow-2xl"
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
@@ -166,8 +176,8 @@ export function BrandIdentityContent() {
             {/* Right Card: Color Shades */}
             <div className="w-full rounded-lg overflow-hidden">
               <ExpandableImage
-                src="/moneymate/arvo.svg"
-                alt="Examples of the Arvo font in different sizes and thicknesses."
+                src="/pitchcave/frutiger.svg"
+                alt="Examples of the Frutiger font in different sizes and thicknesses."
                 className="w-full h-autoobject-contain rounded-md shadow-2xl"
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
@@ -189,7 +199,7 @@ export function BrandIdentityContent() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
             <div className="w-full rounded-lg overflow-hidden ">
             <ExpandableImage
-              src="/moneymate/color_palette.svg"
+              src="/pitchcave/color_palette.svg"
               alt="Color palette for the design system"
               className="w-full h-auto object-contain rounded-md shadow-2xl"
               sizes="(max-width: 768px) 100vw, 50vw" 
@@ -198,8 +208,8 @@ export function BrandIdentityContent() {
           </div>
           <div className="w-full rounded-lg overflow-hidden ">
             <ExpandableImage
-              src="/moneymate/color_shades.svg"
-              alt="Color shades for the design system"
+              src="/pitchcave/color_ratios.svg"
+              alt="Color ratios for the design system"
               className="w-full h-auto object-contain rounded-md shadow-2xl"
               sizes="(max-width: 768px) 100vw, 50vw"
             />

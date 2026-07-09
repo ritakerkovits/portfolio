@@ -4,15 +4,6 @@ import { ArrowRight } from "lucide-react"
 
 const projects = [
   {
-    title: "Optimizing Financial Dashboard",
-    image: "/Dashboard_Wireframe.png",
-    alt: "Financial dashboard wireframe showcasing data visualization and user interface design",
-    description:
-      "This UX optimization refines a financial tracking dashboard by introducing smarter data visualizations, such as a scalable treemap and portfolio trend line charts, to make complex investment data instantly actionable.",
-    reversed: false,
-    href: null,
-  },
-  {
     title: "MoneyMate Financial App Dashboard",
     image: "/moneymate/moneymate-cover.png",
     alt: "MoneyMate financial mockup",
@@ -22,14 +13,17 @@ const projects = [
     href: "/work/moneymate",
   },
   {
-    title: "Illustration Series",
-    image: "/digital-illustration-of-trees-and-landscape-with-w.jpg",
-    alt: "Illustration series",
+    title: "Optimizing Financial Dashboard",
+    image: "/financial_dashboard.webp",
+    alt: "Financial dashboard wireframe showcasing data visualization and user interface design",
     description:
-      "An ongoing weekly illustration series that explores themes of technology, human connection, and the natural world. Each piece is created digitally using a combination of vector and raster techniques, focusing on storytelling through visual metaphors and contemporary aesthetics.",
+      "This UX optimization refines a financial tracking dashboard by introducing smarter data visualizations, such as a scalable treemap and portfolio trend line charts, to make complex investment data instantly actionable.",
     reversed: false,
     href: null,
   },
+
+  
+
 ]
 
 export function SideProjects() {
@@ -37,9 +31,9 @@ export function SideProjects() {
     <section className="py-20">
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4">Other things I'm proud of</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4">Other designs I'm proud of</h2>
           <p className="text-muted-foreground text-lg">
-            Experimental work and passion projects that fuel my creativity
+            TEXT
           </p>
         </div>
 

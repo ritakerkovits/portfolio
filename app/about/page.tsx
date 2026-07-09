@@ -218,25 +218,36 @@ export default function AboutPage() {
 
               {/* Certifications & Projects Column */}
               <div>
-                <h2 className="text-4xl font-serif text-foreground mb-12">Certifications &amp; Projects</h2>
+                <h2 className="text-4xl font-serif text-foreground mb-8">Certifications &amp; Projects</h2>
 
                 {/* Udemy UX Course */}
-                <div className="group mb-8 p-4 -mx-4 border border-transparent hover:border-primary hover:bg-primary/5 transition-all duration-200 cursor-pointer">
+                
+
+                <div className="group p-4 -mx-4 border border-transparent hover:border-primary hover:bg-primary/5 transition-all duration-200 cursor-pointer">
                   <div className="flex items-center justify-between mb-3">
                     <span className="text-xl text-primary">Udemy UX Course</span>
-                    <ArrowUpRight className="w-4 h-4 text-muted-foreground group-hover:w-5 group-hover:h-5 group-hover:text-primary transition-all duration-200" />
+                    
                   </div>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    Established my foundations in web and mobile design through a core understanding of user-centered design principles.
+                  <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+                    Established my foundations in web and mobile design through a core understanding of user-centred design principles.
                   </p>
-                  
+                  <a
+                    href="/certification_udemy.pdf"
+                    target="_blank"          
+                    rel="noopener noreferrer"
+                    className="group inline-flex items-center gap-2 text-primary text-sm underline underline-offset-4 hover:text-primary/80 transition-colors"
+                  >
+                    See my certificate
+                    <ArrowUpRight className="w-4 h-4 transition-transform duration-300 ease-out transform group-hover:translate-x-1 group-hover:-translate-y-1" />
+                    
+                  </a>
                 </div>
 
                 {/* Kreativstorm Intensive */}
                 <div className="group p-4 -mx-4 border border-transparent hover:border-primary hover:bg-primary/5 transition-all duration-200 cursor-pointer">
                   <div className="flex items-center justify-between mb-3">
                     <span className="text-xl text-primary">Kreativstorm Intensive Course</span>
-                    <ArrowUpRight className="w-4 h-4 text-muted-foreground group-hover:w-5 group-hover:h-5 group-hover:text-primary transition-all duration-200" />
+                    
                   </div>
                   <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                     Completed an intensive, practical training program focused on end-to-end digital product design. Applied the Laws of UX, accessibility standards, and scalable UI components.
@@ -316,11 +327,11 @@ export default function AboutPage() {
 
           {/* Beyond Design Section */}
           <section className="mb-20">
-            <h2 className="text-4xl font-serif text-foreground mb-6">Beyond Design</h2>
+            <h2 className="text-4xl font-serif text-foreground mb-6">When I'm not designing</h2>
 
             {/* Text Content */}
             <p className="text-muted-foreground leading-relaxed mb-10 max-w-3xl">
-              When I&apos;m not designing, you&apos;ll find me hiking trails across Austria, experimenting with film photography, or volunteering with local nonprofits to improve design literacy in underserved communities. I&apos;m passionate about mentoring emerging designers and regularly speak at design conferences, hosting inclusive design practices and accessibility workshops.
+              TEXT
             </p>
 
             {/* Image Gallery - Horizontal Row */}

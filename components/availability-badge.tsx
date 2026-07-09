@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback } from "react"
 
-const roles = ["Web Designer", "Business Analyst", "UI/UX Designer"]
+const roles = ["Web Designer", "Web Developer", "UI/UX Designer", "Product Designer"]
 
 export function AvailabilityBadge() {
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0)

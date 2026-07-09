@@ -116,7 +116,6 @@ export function MoneyMateContent() {
               alt="Color palette for the design system"
               className="w-full h-auto object-contain rounded-md shadow-2xl"
               sizes="(max-width: 768px) 100vw, 50vw" 
-              
             />
           </div>
           <div className="w-full rounded-lg overflow-hidden ">

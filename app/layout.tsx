@@ -15,6 +15,11 @@ const _playfairDisplay = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Rita's gallery",
+  description:
+    "A portfolio showcasing my work as a UX/UI designer, and creative problem solver. Explore my projects, case studies, and design philosophy.",
+  keywords:
+    "UX/UI design, visual storytelling, digital experiences, creative portfolio, user-centered design, design thinking, interaction design, web design, mobile app design, graphic design, branding, typography, color theory, prototyping, wireframing, user research",
+ 
   icons: {
     icon: [
       {

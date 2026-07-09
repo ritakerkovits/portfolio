@@ -8,7 +8,7 @@ const projects = [
     description:
       "End-to-end transformation of PitchCave, from UI/UX design to developing a responsive, accessible CMS.",
     
-    image: "/green-mobile-app-interface-with-eco-technology.jpg",
+    image: "/pitchcave/mockup_cover.webp",
     link: "/work/pitch-cave",
     cta: "View Case Study",
   },
@@ -31,7 +31,7 @@ export function FeaturedWorks() {
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-2xl font-mono font-semibold tracking-[0.1em] text-[#06402B] dark:text-[#D4F15E] uppercase">Case studies / Portfolio items</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A selection of projects that showcase my design approach and problem-solving skills
+            TEXT
           </p>
         </div>
 
@@ -42,13 +42,13 @@ export function FeaturedWorks() {
               className="group/card relative"
             >
               {/* Mobile: stacked layout */}
-              <div className="lg:hidden w-full overflow-hidden bg-card dark:bg-[#032015] border border-[#06402B] dark:border-[#2dca91] shadow-xl">
+              <div className="lg:hidden w-full overflow-hidden bg-card dark:bg-[#032015] border border-[#06402B] dark:border-[#8C9592] shadow-xl">
   
                 {/* Unified Padding Wrapper - Encloses both Image and Text for perfect width alignment */}
                 <div className="px-6 pt-6 pb-6">
                   
                   {/* Image Component - Now respects parent padding parameters instead of bleeding edge-to-edge */}
-                  <div className="relative w-full aspect-[4/3] overflow-hidden mb-6">
+                  <div className="relative w-full aspect-video md:h-[400px] overflow-hidden mb-6">
                     <Image
                       src={project.image || "/placeholder.svg"}
                       alt={project.title}

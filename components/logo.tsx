@@ -14,7 +14,7 @@ export function Logo({ className, ...props }: React.ComponentPropsWithoutRef<"sv
       `.trim()}
       {...props}
     >
-      <title>Sarah Chen Logo</title>
+      <title>Rita Kerkovits logo</title>
       <desc>Drawing exported from Concepts: Smarter Sketching</desc>
       
       {/* Group layout wrapper: 

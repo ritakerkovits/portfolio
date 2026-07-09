@@ -19,7 +19,7 @@ export default function MoneyMateCaseStudy() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-24 pb-12 max-w-6xl mx-auto px-6">
+      <section className="pt-24 pb-12 max-w-4xl mx-auto px-6">
         <div className="container mx-auto px-6">
           {/* Back Link */}
           <Link
@@ -35,18 +35,17 @@ export default function MoneyMateCaseStudy() {
             <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 text-balance">
               MoneyMate Case Study for UX design workshop
             </h1>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-               write something
-            </p>
+
           </div>
 
           {/* Hero Visual */}
           <div className="relative w-full max-w-5xl mx-auto mb-16">
-            <div className="relative aspect-[16/9] rounded-sm overflow-hidden shadow-xl">
+            <div className="w-full rounded-lg overflow-hidden">
               <ExpandableImage
                 src="/moneymate/moneymate-cover.png"
                 alt="MoneyMate financial mockup"
-                fill
+                className="w-full h-autoobject-contain rounded-md shadow-2xl"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
           </div>

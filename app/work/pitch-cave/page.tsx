@@ -3,11 +3,18 @@ import { BrandIdentityContent } from "@/components/pitchcave-content"
 import { Navigation } from "@/components/navigation"
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
+import { ArrowUpRight } from "lucide-react"
+import { ExpandableImage } from "@/components/image-lightbox"
+
 
 const projectInfo = {
   timeline: "December 2025 – May 2026",
   role: "UX/UI Designer & Web developer",
   tools: ["Figma", "Wix"],
+  site: {
+    label: "See Pitch Cave site",
+    url: "https://www.dextrovert.at",
+  }
 }
 
 export default function BrandIdentityCaseStudy() {
@@ -44,18 +51,19 @@ export default function BrandIdentityCaseStudy() {
 
           {/* Hero Visual - Centered Image with Rounded Corners */}
           <div className="relative w-full max-w-5xl mx-auto mb-16">
-            <div className="relative aspect-[16/9] rounded-2xl overflow-hidden shadow-xl">
-              <img
-                src="/coffee-brand-identity-design-with-dark-brown-and-c.jpg"
-                alt="Roast & Co. brand identity showcasing packaging and visual elements"
-                className="w-full h-full object-cover"
+            <div className="w-full rounded-lg overflow-hidden">
+              <ExpandableImage
+                src="/pitchcave/mockup_cover.webp"
+                alt="Pitch Cave final design mockup"
+                className="w-full h-autoobject-contain rounded-md shadow-2xl"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
           </div>
 
           {/* Key Info Section - Framed Info Bar */}
           <div className="border-t border-b border-border py-8">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
               {/* Timeline */}
               <div className="space-y-2">
                 <span className="text-xs font-semibold tracking-[0.15em] text-primary uppercase">
@@ -91,6 +99,26 @@ export default function BrandIdentityCaseStudy() {
                     </span>
                   ))}
                 </div>
+              </div>
+              <div className="space-y-2">
+                <span className="text-xs font-semibold tracking-[0.15em] text-primary uppercase">
+                  Live Site
+                </span>
+                <p className="text-foreground font-medium">
+                  <a 
+                    href={projectInfo.site.url}
+                    target="_blank"          
+                    rel="noopener noreferrer" 
+                    className="group inline-flex items-center gap-1 hover:text-primary transition-colors duration-200"
+                  >
+                    <span className="underline decoration-primary/30 group-hover:decoration-primary transition-colors">
+                      {projectInfo.site.label}
+                    </span>
+                    <ArrowUpRight 
+                      className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-transform duration-300 ease-out transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" 
+                    />
+                  </a>
+                </p>
               </div>
             </div>
           </div>
