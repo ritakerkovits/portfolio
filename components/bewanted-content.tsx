@@ -270,7 +270,7 @@ export function BeWantedContent() {
               sizes="(max-width: 768px) 100vw, 80vw"
             />
           </div>
-          <h3 className="text-xl font-medium text-foreground">High-Fidelity Mobile versions</h3>
+          
           <div className="relative w-full h-auto rounded-xl overflow-hidden from-slate-800 to-slate-900">
             <ExpandableImage
               src="/bewanted/mobile_version.webp"
@@ -281,7 +281,7 @@ export function BeWantedContent() {
               sizes="(max-width: 768px) 100vw, 80vw"
             />
           </div>
-          <h3 className="text-xl font-medium text-foreground">Mockups</h3>
+          
           <div className="relative w-full h-auto rounded-xl overflow-hidden from-slate-800 to-slate-900">
             <ExpandableImage
               src="/bewanted/bewanted_mockup.webp"

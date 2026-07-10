@@ -28,6 +28,7 @@ export function Footer() {
               <Link href="/#work" className="text-black/80 hover:text-black transition-colors text-sm dark:text-white/60 dark:hover:text-white">
                 Work
               </Link>
+              
               <Link href="/about" className="text-black/80 hover:text-black transition-colors text-sm dark:text-white/60 dark:hover:text-white">
                 About Me
               </Link>

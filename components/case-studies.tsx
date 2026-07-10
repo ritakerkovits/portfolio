@@ -26,7 +26,7 @@ const projects = [
 
 export function FeaturedWorks() {
   return (
-    <section id="work"className="py-24 relative">
+    <section id="work" className="py-24 relative">
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-2xl font-mono font-semibold tracking-[0.1em] text-[#06402B] dark:text-[#D4F15E] uppercase">Case studies / Portfolio items</h2>

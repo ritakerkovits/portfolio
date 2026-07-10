@@ -17,7 +17,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-6 py-12 max-w-6xl mt-24 ">
           {/* Hero Section - Biography */}
           <section className="mb-32 relative">
-            <div className="grid md:grid-cols-2 gap-12 items-start">
+            <div className="grid md:grid-cols-2 gap-12 items-start group/profile">
               <div>
                 {/* Biography Label */}
                 <span className="text-sm font-semibold tracking-[0.3em] text-primary uppercase mb-6 block">
@@ -59,12 +59,12 @@ export default function AboutPage() {
               </div>
 
               {/* Portrait Image */}
-              <div className="relative flex justify-center md:justify-end">
-                <div className="relative overflow-hidden shadow-2xl w-4/5 lg:w-3/4">
+              <div className="relative flex justify-center md:justify-end transform origin-center transition-transform duration-500 ease-out group-hover/profile:rotate-2">
+                <div className="relative overflow-hidden shadow-2xl w-4/5 lg:w-3/4 ">
                   <img
                     src="/profile.jpg"
                     alt="Rita - UX/UI Designer portrait"
-                    className="w-full h-auto"
+                    className="w-full h-auto transition-transform duration-500 ease-out group-hover/profile:scale-102"
                   />
                 </div>
               </div>
