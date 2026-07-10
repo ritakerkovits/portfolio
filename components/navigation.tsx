@@ -266,12 +266,16 @@ export function Navigation() {
         </Link>
         
         <Link 
-          href="/#contact" 
-          onClick={() => setIsOpen(false)}
-          className={`group ${linkStyles("/#contact")} text-xl`}
+          href="/CV_Rita.pdf" 
+          target="_blank"          
+          rel="noopener noreferrer"
+          className={`group inline-flex items-center gap-1 ${linkStyles("/CV_Rita.pdf")}`}
         >
-          Connect
-          {underlineElement("/#contact")}
+          <span>Resume</span>
+          <ArrowUpRight 
+            className="w-4 h-4 transition-transform duration-300 ease-out transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" 
+          />
+          {underlineElement("/CV_Rita.pdf")}
         </Link>
       </div>
     </nav>
