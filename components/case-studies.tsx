@@ -8,7 +8,7 @@ const projects = [
     description:
       "End-to-end transformation of PitchCave, from UI/UX design to developing a responsive, accessible CMS.",
     
-    image: "/pitchcave/mockup_cover.webp",
+    image: "/pitchcave/pitchcave_card_cover.webp",
     link: "/work/pitch-cave",
     cta: "View Case Study",
   },
@@ -18,9 +18,9 @@ const projects = [
     description:
       "Complete visual identity transformation for the beWANTED career event.",
     
-    image: "/bewanted/cover-image.png",
+    image: "/bewanted/bewanted_card_cover.webp",
     link: "/work/bewanted",
-    cta: "Explore Project",
+    cta: "View Case Study",
   },
 ]
 
@@ -48,12 +48,13 @@ export function FeaturedWorks() {
                 <div className="px-6 pt-6 pb-6">
                   
                   {/* Image Component - Now respects parent padding parameters instead of bleeding edge-to-edge */}
-                  <div className="relative w-full aspect-video md:h-[400px] overflow-hidden mb-6">
+                  <div className="relative w-full aspect-square md:h-[400px] overflow-hidden mb-6">
                     <Image
                       src={project.image || "/placeholder.svg"}
                       alt={project.title}
                       fill
                       className="object-cover"
+                      sizes="(max-width: 1024px) 100vw"
                     />
                   </div>
                   

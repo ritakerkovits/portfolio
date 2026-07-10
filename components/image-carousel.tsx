@@ -11,35 +11,35 @@ type Slide = {
 
 const slides: Slide[] = [
   {
-    src: "/moneymate/landing.png",
+    src: "/moneymate/landing.webp",
     alt: "MoneyMate application landing page mockup",
   },
   {
-    src: "/moneymate/personalization.png",
+    src: "/moneymate/personalization.webp",
     alt: "Mockup of MoneyMate personalization flow",
   },
   {
-    src: "/moneymate/registration.png",
+    src: "/moneymate/registration.webp",
     alt: "Mockup of MoneyMate registration and Login screens",
   },
   {
-    src: "/moneymate/budget_tracking.png",
+    src: "/moneymate/budget_tracking.webp",
     alt: "Mockup of MoneyMate budget tracking feature",
   },
   {
-    src: "/moneymate/dashboard.png",
+    src: "/moneymate/dashboard.webp",
     alt: "Mockup of MoneyMate dashboard",
   },
   {
-    src: "/moneymate/expense_tracking.png",
+    src: "/moneymate/expense_tracking.webp",
     alt: "Mockup of MoneyMate expense tracking feature",
   },
   {
-    src: "/moneymate/financial_goals.png",
+    src: "/moneymate/financial_goals.webp",
     alt: "Mockup of MoneyMate financial goals feature",
   },
     {
-    src: "/moneymate/financial_reports.png",
+    src: "/moneymate/financial_reports.webp",
     alt: "Mockup of MoneyMate financial reports feature",
   },
 ]

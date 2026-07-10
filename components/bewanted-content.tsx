@@ -6,7 +6,7 @@ import { ExpandableImage } from "@/components/image-lightbox"
 
 
 
-export function CaseStudyContent() {
+export function BeWantedContent() {
   return (
     <article className="space-y-16">
       {/* Hero Section */}
@@ -156,7 +156,7 @@ export function CaseStudyContent() {
           </p>
           <div className="relative w-full h-auto rounded-xl overflow-hidden from-slate-800 to-slate-900">
             <ExpandableImage
-              src="/bewanted/wireframes.png"
+              src="/bewanted/wireframes.webp"
               alt="A low-fidelity wireframe layout showing the structural skeleton and placement of UI elements on a webpage."
               width={3150} 
               height={1600} 
@@ -262,7 +262,7 @@ export function CaseStudyContent() {
           </p>
           <div className="relative w-full h-auto rounded-xl overflow-hidden from-slate-800 to-slate-900">
             <ExpandableImage
-              src="/bewanted/Main-page-1.png"
+              src="/bewanted/desktop_page.webp"
               alt=""
               width={3150} 
               height={1600} 
@@ -273,7 +273,7 @@ export function CaseStudyContent() {
           <h3 className="text-xl font-medium text-foreground">High-Fidelity Mobile versions</h3>
           <div className="relative w-full h-auto rounded-xl overflow-hidden from-slate-800 to-slate-900">
             <ExpandableImage
-              src="/bewanted/Mobile-version.png"
+              src="/bewanted/mobile_version.webp"
               alt=""
               width={1380} 
               height={1600} 
@@ -284,7 +284,7 @@ export function CaseStudyContent() {
           <h3 className="text-xl font-medium text-foreground">Mockups</h3>
           <div className="relative w-full h-auto rounded-xl overflow-hidden from-slate-800 to-slate-900">
             <ExpandableImage
-              src="/bewanted/Mockups.png"
+              src="/bewanted/bewanted_mockup.webp"
               alt=""
               width={1630} 
               height={1600} 
@@ -343,7 +343,7 @@ export function CaseStudyContent() {
                   Increase in Applications
                 </p>
                 <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                  The number of applications for the event increased by 61% compared to last year, rising from 132 to 213 applications. This significant boost was directly linked to the redesigned website and marketing efforts.
+                  The number of applications for the event increased compared to last year, rising from 132 to 213 applications. This significant boost was directly linked to the redesigned website and marketing efforts.
                   
                 </p>
               </div>

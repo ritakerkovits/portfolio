@@ -21,13 +21,7 @@ export function BrandIdentityContent() {
           <p className="text-muted-foreground leading-relaxed">
             Redesign and rebrand an existing service-based website to create a more intuitive interface and provide richer content. The goal was to modernize the visual identity and improve the user experience for a diverse audience, including students, professionals, and corporate partners.
           </p>
-          <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">Design Goals</h3>
-          <ul className="space-y-2 text-muted-foreground">
-            <li>Create a memorable and distinctive visual identity</li>
-            <li>Communicate premium quality and artisanal values</li>
-            <li>Develop a cohesive system that works across all touchpoints</li>
-            <li>Emphasize sustainability and ethical sourcing</li>
-          </ul>
+          
         </div>
       </section>
 
@@ -52,10 +46,10 @@ export function BrandIdentityContent() {
         <div className="prose prose-lg max-w-none">
           
           
-          <ul className="space-y-6 mb-6">
-            <li className="flex items-start gap-4">
+          <ul className="space-y-10 mb-6">
+            <li className="flex items-start gap-2  transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
-              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0" />
+              <ArrowRight className="w-4 h-4 stroke-[3] text-emerald-900 dark:text-[#d4ff00] mt-1 shrink-0" />
               <div className="flex flex-col gap-2">
                 <p className="text-foreground font-semibold text-lg leading-snug">
                   Restructure information architecture
@@ -66,9 +60,9 @@ export function BrandIdentityContent() {
               </div>
             </li>
 
-            <li className="flex items-start gap-4">
+            <li className="flex items-start gap-2  transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
-              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0" />
+              <ArrowRight className="w-4 h-4 stroke-[3] text-emerald-900 dark:text-[#d4ff00] mt-1 shrink-0" />
               <div className="flex flex-col gap-2">
                 <p className="text-foreground font-semibold text-lg leading-snug">
                   Refresh the brand look
@@ -79,9 +73,9 @@ export function BrandIdentityContent() {
               </div>
             </li>
 
-            <li className="flex items-start gap-4">
+            <li className="flex items-start gap-2  transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
-              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0" />
+              <ArrowRight className="w-4 h-4 stroke-[3] text-emerald-900 dark:text-[#d4ff00] mt-1 shrink-0" />
               <div className="flex flex-col gap-2">
                 <p className="text-foreground font-semibold text-lg leading-snug">
                   Scale the Platform
@@ -235,8 +229,8 @@ export function BrandIdentityContent() {
           </p>
           <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-gradient-to-br from-stone-700 to-stone-800">
             <ExpandableImage
-              src="/design-system-components-library-with-buttons-card.jpg" 
-              alt="Brand guidelines spreads showing logo and typography" 
+              src="/" 
+              alt="text" 
               fill 
               className="object-cover" 
             />

@@ -54,7 +54,7 @@ export function MoneyMateContent() {
           </div>
         </div>
 
-        <div className="space-y-4">
+        <div className="space-y-4 hidden">
           <h3 className="text-xl font-semibold text-foreground">Personas</h3>
           <p className="text-muted-foreground leading-relaxed">
             Based on the research findings, I developed user personas that represent the typical users of MoneyMate. 
@@ -76,17 +76,17 @@ export function MoneyMateContent() {
           </p>
           <div className="w-full rounded-xl overflow-hidden">
             <ExpandableImage
-              src="/moneymate/wireframe_login.png"
+              src="/moneymate/wireframe_login.webp"
               alt="MoneyMate wireframe for login and registration screens"
-              width={885}
-              height={954}
+              width={1811}
+              height={1253}
               
               className="w-full h-auto object-contain"
             />
           </div>
           <div className="w-full rounded-xl overflow-hidden">
             <ExpandableImage
-              src="/moneymate/wireframe_onboarding.png"
+              src="/moneymate/wireframe_onboarding.webp"
               alt="MoneyMate wireframe for onboarding screens"
               width={1811}
               height={1253}
@@ -95,7 +95,7 @@ export function MoneyMateContent() {
           </div>
           <div className="w-full rounded-xl overflow-hidden">
             <ExpandableImage
-              src="/moneymate/wireframe_financial.png"
+              src="/moneymate/wireframe_financial.webp"
               alt="MoneyMate wireframe for financial goal screens"
               width={1134}
               height={1106}
@@ -196,7 +196,7 @@ export function MoneyMateContent() {
           </p>
           <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden ">
             <ExpandableImage
-              src="/moneymate/prototype_landing.png"
+              src="/moneymate/prototype_landing.webp"
               alt="MoneyMate prototype of login, registration and landing page component library"
               width={1134}
               height={1106}
@@ -206,7 +206,7 @@ export function MoneyMateContent() {
           </div>
           <div className="w-full rounded-lg overflow-hidden">
             <ExpandableImage
-              src="/moneymate/prototype_personalization.png"
+              src="/moneymate/prototype_personalization.webp"
               alt="MoneyMate prototype of financial dashboards screens"
               className="w-full h-auto object-contain rounded-md shadow-2xl"
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -214,7 +214,16 @@ export function MoneyMateContent() {
           </div>
           <div className="w-full rounded-lg overflow-hidden">
             <ExpandableImage
-              src="/moneymate/prototype_dashboards.png"
+              src="/moneymate/prototype_dashboards.webp"
+              alt="MoneyMate prototype of financial dashboards screens"
+              
+              className="w-full h-auto object-contain rounded-md shadow-2xl"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
+          </div>
+          <div className="w-full rounded-lg overflow-hidden">
+            <ExpandableImage
+              src="/moneymate/prototype_breakdown.webp"
               alt="MoneyMate prototype of financial dashboards screens"
               
               className="w-full h-auto object-contain rounded-md shadow-2xl"

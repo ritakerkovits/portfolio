@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react"
 const projects = [
   {
     title: "MoneyMate Financial App Dashboard",
-    image: "/moneymate/moneymate-cover.png",
+    image: "/moneymate/moneymate-cover.webp",
     alt: "MoneyMate financial mockup",
     description:
       "A comprehensive component library and design system created to streamline design workflows and ensure consistency across projects. Features reusable components, color palettes, typography scales, and detailed documentation for developers and designers.",

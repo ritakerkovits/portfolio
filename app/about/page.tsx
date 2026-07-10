@@ -25,7 +25,7 @@ export default function AboutPage() {
                 </span>
 
                 {/* Main Heading with wave emoji */}
-                <h1 className="text-5xl lg:text-6xl font-bold font-semibold text-foreground mb-4 leading-tight">
+                <h1 className="text-5xl lg:text-6xl font-bold text-foreground mb-4 leading-tight">
                   Hey there,<br />
                   I&apos;m Rita <span className="inline-block animate-[wave_2.5s_ease-in-out_infinite]">👋</span>
                 </h1>
@@ -223,7 +223,7 @@ export default function AboutPage() {
                 {/* Udemy UX Course */}
                 
 
-                <div className="group p-4 -mx-4 border border-transparent hover:border-primary hover:bg-primary/5 transition-all duration-200 cursor-pointer">
+                <div className="relative group p-4 -mx-4 border border-transparent hover:border-primary hover:bg-primary/5 transition-all duration-200 cursor-pointer mb-12">
                   <div className="flex items-center justify-between mb-3">
                     <span className="text-xl text-primary">Udemy UX Course</span>
                     
@@ -235,7 +235,7 @@ export default function AboutPage() {
                     href="/certification_udemy.pdf"
                     target="_blank"          
                     rel="noopener noreferrer"
-                    className="group inline-flex items-center gap-2 text-primary text-sm underline underline-offset-4 hover:text-primary/80 transition-colors"
+                    className="group inline-flex items-center gap-2 text-primary text-sm underline underline-offset-4 hover:text-primary/80 transition-colors after:absolute after:inset-0 after:z-10"
                   >
                     See my certificate
                     <ArrowUpRight className="w-4 h-4 transition-transform duration-300 ease-out transform group-hover:translate-x-1 group-hover:-translate-y-1" />
@@ -244,7 +244,7 @@ export default function AboutPage() {
                 </div>
 
                 {/* Kreativstorm Intensive */}
-                <div className="group p-4 -mx-4 border border-transparent hover:border-primary hover:bg-primary/5 transition-all duration-200 cursor-pointer">
+                <div className="relative group p-4 -mx-4 border border-transparent hover:border-primary hover:bg-primary/5 transition-all duration-200 cursor-pointer">
                   <div className="flex items-center justify-between mb-3">
                     <span className="text-xl text-primary">Kreativstorm Intensive Course</span>
                     
@@ -253,8 +253,8 @@ export default function AboutPage() {
                     Completed an intensive, practical training program focused on end-to-end digital product design. Applied the Laws of UX, accessibility standards, and scalable UI components.
                   </p>
                   <a
-                    href="/work/fintech-redesign"
-                    className="group inline-flex items-center gap-2 text-primary text-sm underline underline-offset-4 hover:text-primary/80 transition-colors"
+                    href="/work/moneymate"
+                    className="group inline-flex items-center gap-2 text-primary text-sm underline underline-offset-4 hover:text-primary/80 transition-colors after:absolute after:inset-0 after:z-10"
                   >
                     Explore the Moneymate Case Study
                     <ArrowUpRight className="w-4 h-4 transition-transform duration-300 ease-out transform group-hover:translate-x-1 group-hover:-translate-y-1" />
@@ -326,7 +326,7 @@ export default function AboutPage() {
           </section>
 
           {/* Beyond Design Section */}
-          <section className="mb-20">
+          <section className="mb-20 hidden">
             <h2 className="text-4xl font-serif text-foreground mb-6">When I'm not designing</h2>
 
             {/* Text Content */}
