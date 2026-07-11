@@ -53,7 +53,7 @@ export function HeroSection() {
             </div>
           </div>
 
-          {/* Right image */}
+          {/* Right image 
           <div className="relative flex justify-center md:justify-end">
             <div className="relative overflow-hidden shadow-2xl w-4/5 lg:w-3/4">
               <Image
@@ -65,7 +65,7 @@ export function HeroSection() {
                 priority
               />
             </div>
-          </div>
+          </div>*/}
         </div>
       </div>
     </section>

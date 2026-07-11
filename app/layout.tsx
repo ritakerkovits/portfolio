@@ -24,6 +24,19 @@ export const metadata: Metadata = {
     "A UX/UI design portfolio focused on solving complex problems and building digital products that deliver value.",
   keywords:
     "UX/UI design, visual storytelling, digital experiences, creative portfolio, user-centered design, design thinking, interaction design, web design, mobile app design, graphic design, branding, typography, color theory, prototyping, wireframing, user research",
+  openGraph: {
+    title: 'Product & UX/UI Designer Portfolio | Rita Kerkovits',
+    description: 'A UX/UI design portfolio focused on solving complex problems and building digital products that deliver value.',
+    url: 'https://kerkorita.com',
+    images: [
+      {
+        url: '/logos/logo_green.png', // Placed inside your /public folder
+        width: 1200,
+        height: 630,
+        alt: 'Rita Kerkovits Portfolio Website',
+      },
+    ],
+  },
  
   icons: {
     icon: [
