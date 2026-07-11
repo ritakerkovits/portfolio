@@ -2,10 +2,30 @@ import { ArrowUpRight } from "lucide-react"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
+import { Metadata } from 'next'
 
 
 
-/*dark:bg-[#03271a]*/
+
+
+export const metadata: Metadata = {
+  title: 'About Me | Rita Kerkovits',
+  description: 'UX/UI Designer and Web Developer specialized in user-centered digital products.',
+  keywords: ['UX Design', 'UI Design', 'Web Development', 'Portfolio'],
+  openGraph: {
+    title: 'About Me | Rita Kerkovits',
+    description: 'Explore my design journey, toolsets, and industry experience.',
+    url: 'https://kerkorita.com/about',
+    images: [
+      {
+        url: '/logos/logo_green.png', // Placed inside your /public folder
+        width: 1200,
+        height: 630,
+        alt: 'Rita Kerkovits Portfolio Website',
+      },
+    ],
+  },
+}
 
 export default function AboutPage() {
   return (
@@ -25,7 +45,7 @@ export default function AboutPage() {
                 </span>
 
                 {/* Main Heading with wave emoji */}
-                <h1 className="text-5xl lg:text-6xl font-bold text-foreground mb-4 leading-tight">
+                <h1 className="text-5xl lg:text-6xl font-serif font-semibold text-foreground mb-4 leading-tight">
                   Hey there,<br />
                   I&apos;m Rita <span className="inline-block animate-[wave_2.5s_ease-in-out_infinite]">👋</span>
                 </h1>
@@ -36,10 +56,7 @@ export default function AboutPage() {
                   I&apos;m a Vienna-based UX/UI Designer with a technical foundation in web development and Business Informatics.
                 </p>
 
-                {/* Body Text 
-                <p className="text-muted-foreground leading-relaxed">
-                  I translate abstract conceptual strategies into highly polished, robust, and accessible digital solutions. My approach blends rigorous scientific methodologies with sharp, brutalist visual layouts.
-                </p> */}
+                
                 <Button
                   size="lg"
                   variant="outline"
@@ -73,7 +90,7 @@ export default function AboutPage() {
 
           {/* Experience Timeline Section */}
           <section className="mb-32">
-            <h2 className="text-4xl font-garamond text-foreground mb-12">Experience</h2>
+            <h2 className="text-4xl font-mono text-foreground mb-12">Experience</h2>
 
             <div className="relative">
               {/* Vertical timeline line */}
@@ -175,17 +192,18 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
               {/* Education Column */}
               <div>
-                <h2 className="text-4xl font-serif text-foreground mb-12">Education</h2>
+                <h2 className="text-4xl font-mono text-foreground mb-8">Education</h2>
 
                 {/* TU WIEN */}
                 <div className="mb-12">
-                  <div className="flex items-center gap-3 mb-3">
-                    <span className="text-xl text-primary">Vienna University of Technology</span>
-                  </div>
-                  <h3 className="text-sm font-sans font-semibold text-foreground uppercase tracking-wider mb-1">
+                  <h3 className="text-lg font-sans text-primary font-semibold uppercase tracking-wider mb-1">
                     MSC IN HUMAN-COMPUTER INTERACTION
                   </h3>
-                  <p className="text-muted-foreground text-sm mb-4">
+                  <div className="flex items-center gap-3 mb-1">
+                    <span className="text-md font-medium text-foreground">Vienna University of Technology</span>
+                  </div>
+                  
+                  <p className="text-muted-foreground text-sm mb-4 italic">
                     Vienna, Austria | 2024 - Present (Expected Graduation: 2026)
                   </p>
                   <ul className="space-y-3 text-muted-foreground text-sm leading-relaxed">
@@ -200,25 +218,25 @@ export default function AboutPage() {
 
                 {/* Corvinus */}
                 <div>
-                  <div className="flex items-center gap-3 mb-3">
-                    
-                    <span className="text-xl text-primary">Corvinus University of Budapest</span>
-                  </div>
-                  <h3 className="text-sm font-sans font-semibold text-foreground uppercase tracking-wider mb-1">
+                  <h3 className="text-lg font-sans text-primary font-semibold uppercase tracking-wider mb-1">
                     BSC IN BUSINESS INFORMATICS
-                  </h3>
-                  <p className="text-muted-foreground text-sm mb-4">
+                    </h3>
+                  <div className="flex items-center gap-3 mb-1">                    
+                    <span className="text-md font-medium text-foreground ">Corvinus University of Budapest</span>
+                  </div>
+                  
+                  <p className="text-muted-foreground text-sm mb-4 italic">
                     Budapest, Hungary | 2020 - 2024
                   </p>
                   <p className="text-muted-foreground text-sm leading-relaxed">
-                    Specialized in business processes and web development which gave me the foundational logic layer for my design career
+                    Specialized in business processes, statistics, and web development which gave me the foundational logic layer for my design career
                   </p>
                 </div>
               </div>
 
               {/* Certifications & Projects Column */}
               <div>
-                <h2 className="text-4xl font-serif text-foreground mb-8">Certifications &amp; Projects</h2>
+                <h2 className="text-4xl font-mono text-foreground mb-8">Certifications &amp; Projects</h2>
 
                 {/* Udemy UX Course */}
                 
@@ -266,7 +284,7 @@ export default function AboutPage() {
 
           {/* Technical Toolset Section */}
           <section className="mb-32">
-            <h2 className="text-4xl font-serif text-foreground mb-10">Technical Toolset</h2>
+            <h2 className="text-4xl font-garamond text-foreground mb-10">Technical Toolset</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
               {/* Web Development */}

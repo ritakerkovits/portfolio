@@ -3,20 +3,44 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 import { ExpandableImage } from "@/components/image-lightbox"
+import { Metadata } from 'next'
 
-export function BrandIdentityContent() {
+
+
+
+
+export const metadata: Metadata = {
+  title: 'PitchCave Redesign & Rebrand | Rita Kerkovits',
+  description: 'See how I redesigned the PitchCave platform to scale the website and improve user experience.',
+  keywords: ['UX Design', 'UI Design', 'Website Redesign', 'Portfolio', 'Wireframe', 'Prototyping', 'Design System', 'Typography', 'Color Palette'],
+  openGraph: {
+    title: 'PitchCave Redesign & Rebrand | Rita Kerkovits',
+    description: 'Explore the design process and final prototype for the PitchCave redesign.',
+    url: 'https://kerkorita.com/pitchcave',
+    images: [
+      {
+        url: '/logos/logo_green.png', // Placed inside your /public folder
+        width: 1200,
+        height: 630,
+        alt: 'Rita Kerkovits Portfolio Website',
+      },
+    ],
+  },
+}
+
+export function PitchCaveContent() {
   return (
     <article className="space-y-16">
       {/* Hero Section */}
       <section className="space-y-6">
-        <h1 className="text-4xl lg:text-5xl font-bold text-foreground leading-tight">
-          PitchCave: Full-Stack Redesign & Platform Development
+        <h1 className="text-4xl lg:text-5xl font-serif font-bold text-foreground leading-tight">
+          Full-Stack Redesign & Platform Development
         </h1>
       </section>
 
       {/* Objectives */}
       <section id="objectives" className="scroll-mt-24 space-y-6">
-        <h2 className="text-3xl font-bold text-foreground">Objectives</h2>
+        <h2 className="text-4xl font-serif font-medium text-foreground">Objectives</h2>
         <div className="prose prose-lg max-w-none">
           <p className="text-muted-foreground leading-relaxed">
             Redesign and rebrand an existing service-based website to create a more intuitive interface and provide richer content. The goal was to modernize the visual identity and improve the user experience for a diverse audience, including students, professionals, and corporate partners.
@@ -27,7 +51,7 @@ export function BrandIdentityContent() {
 
       {/* Problem */}
       <section id="problem-statement" className="scroll-mt-24 space-y-8">
-        <h2 className="text-3xl font-bold text-foreground">Problem</h2>
+        <h2 className="text-4xl font-serif font-medium text-foreground">Problem</h2>
 
         {/* Brand Strategy */}
         <div className="space-y-4">
@@ -42,7 +66,7 @@ export function BrandIdentityContent() {
       </section>
       
       <section id="goals" className="scroll-mt-24 space-y-6">
-        <h2 className="text-3xl font-medium text-foreground">Goals</h2>
+        <h2 className="text-4xl font-serif font-medium text-foreground">Goals</h2>
         <div className="prose prose-lg max-w-none">
           
           
@@ -94,11 +118,11 @@ export function BrandIdentityContent() {
 
       {/* Ideation */}
       <section id="process" className="scroll-mt-24 space-y-8">
-        <h2 className="text-3xl font-bold text-foreground">Process</h2>
+        <h2 className="text-4xl font-serif font-medium text-foreground">Process</h2>
 
         {/* Discovery & Requirements */}
         <div className="space-y-4">
-          <h3 className="text-xl font-semibold text-foreground">Discovery & Requirements</h3>
+          <h3 className="text-2xl font-serif font-medium text-foreground">Discovery & Requirements</h3>
           <p className="text-muted-foreground leading-relaxed">
             The process began with a deep-dive client interview to understand their needs and business goals. I also conducted benchmarking by analyzing websites in the same industry to identify trends and gather inspiration.
           </p>
@@ -107,7 +131,7 @@ export function BrandIdentityContent() {
 
         {/* Information Architecture */}
         <div className="space-y-4">
-          <h3 className="text-xl font-semibold text-foreground">Information Architecture</h3>
+          <h3 className="text-2xl font-serif font-medium text-foreground">Information Architecture</h3>
           <p className="text-muted-foreground leading-relaxed">
             To handle the complexity of the new pages and content, I started by creating a clear Information Architecture (IA) that mapped out how everything connects and helped communicate the site's structure. 
           </p>
@@ -124,7 +148,7 @@ export function BrandIdentityContent() {
         </div>
 
         <div className="space-y-4">
-          <h3 className="text-xl font-semibold text-foreground">Wireframes</h3>
+          <h3 className="text-2xl font-serif font-medium text-foreground">Wireframes</h3>
           <p className="text-muted-foreground leading-relaxed">
           Next, I turned this structure into low-fidelity wireframes, giving a simple visual layout that let the client review and confirm the content hierarchy and user flows before moving on to detailed design
           </p>
@@ -151,7 +175,7 @@ export function BrandIdentityContent() {
         </div>
         
         <div className="space-y-4">
-          <h3 className="text-xl font-medium text-foreground">Typography</h3>
+          <h3 className="text-2xl font-serif font-medium text-foreground">Typography</h3>
           <p className="text-muted-foreground leading-relaxed">
             For typography, I selected Frutiger and SF Pro Display because they are highly readable and strike the right balance between professional and approachable. Throughout the process, I kept an open feedback loop with the client to make sure every step aligned with their vision.
           </p>
@@ -186,7 +210,7 @@ export function BrandIdentityContent() {
   
 
         <div className="space-y-4">
-          <h3 className="text-xl font-semibold text-foreground">Color Palette</h3>
+          <h3 className="text-2xl font-serif font-medium text-foreground">Color Palette</h3>
           <p className="text-muted-foreground leading-relaxed">
             During the rebranding phase, I focused on developing a versatile, modern look. I chose a triadic color palette and carefully tested the main color combinations with WCAG contrast audits to ensure an inclusive experience.
           </p>
@@ -219,11 +243,11 @@ export function BrandIdentityContent() {
 
       {/* Prototyping */}
       <section id="prototyping" className="scroll-mt-24 space-y-8">
-        <h2 className="text-3xl font-bold text-foreground">Prototyping</h2>
+        <h2 className="text-4xl font-serif font-medium text-foreground">Prototyping</h2>
 
         {/* Brand Guidelines */}
         <div className="space-y-4">
-          <h3 className="text-xl font-semibold text-foreground">TEXT</h3>
+          
           <p className="text-muted-foreground leading-relaxed">
             TEXT
           </p>
@@ -242,7 +266,7 @@ export function BrandIdentityContent() {
 
       {/* Testing */}
       <section id="testing" className="scroll-mt-24 space-y-6">
-        <h2 className="text-3xl font-bold text-foreground">Testing</h2>
+        <h2 className="text-4xl font-serif font-medium text-foreground">Testing</h2>
         <p className="text-muted-foreground leading-relaxed">
           To validate the design, I conducted brief testing sessions with potential audiences, mostly with students and young professionals. The feedback was overwhelmingly positive, with 100% of participants rating the new design as &quot;modern&quot; and &quot;premium&quot;. 
         </p>
@@ -253,13 +277,13 @@ export function BrandIdentityContent() {
       
       {/* Impact */}
       <section id="impact" className="scroll-mt-24 space-y-8">
-        <h2 className="text-3xl font-bold text-foreground">Impact</h2>
+        <h2 className="text-4xl font-serif font-medium text-foreground">Impact</h2>
 
         
 
         {/* List */}
         <ul className="space-y-6 mb-6">
-            <li className="flex items-start gap-4">
+            <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
               <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0" />
               <div className="flex flex-col gap-2">
@@ -273,7 +297,7 @@ export function BrandIdentityContent() {
               </div>
             </li>
 
-            <li className="flex items-start gap-4">
+            <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
               <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0" />
               <div className="flex flex-col gap-2">
@@ -293,43 +317,73 @@ export function BrandIdentityContent() {
 
       {/* Learnings */}
       <section id="learnings" className="scroll-mt-24 space-y-6">
-        <h2 className="text-3xl font-bold text-foreground">Learnings</h2>
+        <h2 className="text-4xl font-serif font-medium text-foreground">Learnings</h2>
 
-        {/* List */}
-        <div className="space-y-2">
-          <p className="text-lg font-semibold text-foreground">Getting comfortable with Wix</p>
-          <p className="text-muted-foreground leading-relaxed">
-            Choosing Wix was a strategic decision since the client was already familiar with it. This project helped me learn how to work effectively with a new site builder, broadening my technical skills.
-          </p>
+        
+
+        <div className="prose prose-lg max-w-none">
           
+          
+          <ul className="space-y-6 mb-6">
+            <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
+              {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <div className="flex flex-col gap-2">
+                <p className="text-foreground font-semibold text-lg leading-snug group-hover:text-[#beee2b] transition-colors">
+                  Getting comfortable with Wix
+                </p>
+                <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
+                  Choosing Wix was a strategic decision since the client was already familiar with it. This project helped me learn how to work effectively with a new site builder, broadening my technical skills.
+                </p>
+              </div>
+            </li>
+
+            <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
+              {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <div className="flex flex-col gap-2">
+                <p className="text-foreground font-semibold text-lg leading-snug transition-colors duration-300 ease-in-out group-hover:text-emerald-900 dark:group-hover:text-[#d4ff00]">
+                  Keeping everything organized
+                </p>
+                <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
+                  Keeping a clear, single source of truth for research, ideas, and technical details helped keep the project on track. I now see documentation not just as a task, but as a way to prevent misunderstandings and keep everyone aligned.
+                </p>
+              </div>
+            </li>
+
+            <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
+              {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <div className="flex flex-col gap-2 ">
+                <p className="text-foreground font-semibold text-lg leading-snug">
+                  Putting Accessibility into practice
+                </p>
+                <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
+                  This project was a big step in my growth. While I'd studied inclusive design before, this was the first time I actively applied accessibility principles from the very start - like choosing accessible colors, adding descriptive alt text, or logical content hierarchy.
+                </p>
+              </div>
+            </li>
+
+            <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
+              {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <div className="flex flex-col gap-2 ">
+                <p className="text-foreground font-semibold text-lg leading-snug">
+                  The power of regular feedback
+                </p>
+                <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
+                  Frequent check-ins with the client showed me how valuable early and ongoing feedback is. Sharing wireframes often helped us avoid major changes later on, keeping the project on schedule and within scope.
+                </p>
+              </div>
+            </li>
+
+          </ul>
         </div>
 
-        <div className="space-y-2">
-          <p className="text-lg font-semibold text-foreground">Keeping everything organized</p>
-          <p className="text-muted-foreground leading-relaxed">
-            Keeping a clear, single source of truth for research, ideas, and technical details helped keep the project on track. I now see documentation not just as a task, but as a way to prevent misunderstandings and keep everyone aligned.
-          </p>
-          
-        </div>
+        
 
-
-        <div className="space-y-2">
-          <p className="text-lg font-semibold text-foreground">Putting Accessibility into practice</p>
-          <p className="text-muted-foreground leading-relaxed">
-            This project was a big step in my growth. While I'd studied inclusive design before, this was the first time I actively applied accessibility principles from the very start - like choosing accessible colors, adding descriptive alt text, or logical content hierarchy.
-          </p>
-          
-        </div>
-
-        <div className="space-y-2">
-          <p className="text-lg font-semibold text-foreground">The power of regular feedback</p>
-          <p className="text-muted-foreground leading-relaxed">
-            Frequent check-ins with the client showed me how valuable early and ongoing feedback is. Sharing wireframes often helped us avoid major changes later on, keeping the project on schedule and within scope.
-          </p>
-          
-        </div>
-
-
+        
+        
       </section>
         
     </article>

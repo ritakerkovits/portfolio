@@ -8,7 +8,7 @@ const projects = [
     image: "/moneymate/moneymate-cover.webp",
     alt: "MoneyMate financial mockup",
     description:
-      "A comprehensive component library and design system created to streamline design workflows and ensure consistency across projects. Features reusable components, color palettes, typography scales, and detailed documentation for developers and designers.",
+      "A complete case study covering UX principles, information architecture, wireframing, and interactive prototyping developed during an intensive UX course.",
     reversed: true,
     href: "/work/moneymate",
   },
@@ -28,12 +28,12 @@ const projects = [
 
 export function SideProjects() {
   return (
-    <section className="py-20">
+    <section className="py-20 mb-20">
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4">Other designs I'm proud of</h2>
+          <h2 className="text-4xl font-serif font-medium text-foreground mb-4">Personal Projects</h2>
           <p className="text-muted-foreground text-lg">
-            TEXT
+            A selection of shorter case studies, visual concepts, and independent projects.
           </p>
         </div>
 
@@ -51,14 +51,14 @@ export function SideProjects() {
                 </div>
               </div>
               <div className={project.reversed ? "md:order-1" : ""}>
-                <h3 className="text-2xl font-bold text-foreground mb-4">{project.title}</h3>
+                <h3 className="text-2xl font-mono font-medium text-foreground mb-4">{project.title}</h3>
                 <p className="text-muted-foreground leading-relaxed">{project.description}</p>
                 {project.href && (
                   <Link
                     href={project.href}
                     className="group mt-6 inline-flex items-center gap-2 font-medium text-primary transition-colors hover:text-primary/80"
                   >
-                    See details
+                    Explore the design process
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 )}

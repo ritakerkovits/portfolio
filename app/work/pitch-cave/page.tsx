@@ -1,5 +1,5 @@
 import { CaseStudySidebar } from "@/components/case-study-sidebar"
-import { BrandIdentityContent } from "@/components/pitchcave-content"
+import { PitchCaveContent } from "@/components/pitchcave-content"
 import { Navigation } from "@/components/navigation"
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
@@ -42,11 +42,11 @@ export default function BrandIdentityCaseStudy() {
 
             {/* Page Title & Description */}
             <div className="max-w-3xl mb-12">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 text-balance">
+              <h1 className="text-4xl md:text-5xl lg:text-5xl font-serif font-semibold text-foreground mb-6">
                 PitchCave: Full-Stack Redesign & Platform Development
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-                Executing a complete end-to-end transformation of the PitchCave website, from conceptualizing the information architecture and design system to developing a high-performing, accessible, and client-manageable CMS.
+                A complete end-to-end transformation of the PitchCave website, from conceptualizing the information architecture and design system to developing an accessible, and client-manageable CMS.
               </p>
             </div>
 
@@ -135,7 +135,7 @@ export default function BrandIdentityCaseStudy() {
       {/* Content Section */}
       <div id="content-section-start" className="container mx-auto px-6 lg:px-24 py-12 lg:py-16">
         <div className="max-w-4xl mx-auto lg:ml-48">
-          <BrandIdentityContent />
+          <PitchCaveContent />
         </div>
       </div>
     </main>

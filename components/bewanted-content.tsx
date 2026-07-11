@@ -3,6 +3,30 @@ import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import { ExpandableImage } from "@/components/image-lightbox"
+import { Metadata } from 'next'
+
+
+
+
+
+export const metadata: Metadata = {
+  title: 'beWANTED Website Redesign | Rita Kerkovits',
+  description: 'See how I redesigned the beWANTED career event website to improve user experience and engagement.',
+  keywords: ['UX Design', 'UI Design', 'Website Redesign', 'Portfolio', 'Wireframe', 'Prototyping', 'Design System', 'Typography', 'Color Palette'],
+  openGraph: {
+    title: 'beWANTED Website Redesign | Rita Kerkovits',
+    description: 'Explore the design process and final prototype for the beWANTED website redesign.',
+    url: 'https://kerkorita.com/bewanted',
+    images: [
+      {
+        url: '/logos/logo_green.png', // Placed inside your /public folder
+        width: 1200,
+        height: 630,
+        alt: 'Rita Kerkovits Portfolio Website',
+      },
+    ],
+  },
+}
 
 
 
@@ -12,14 +36,14 @@ export function BeWantedContent() {
       {/* Hero Section */}
       <section className="space-y-6">
         
-        <h1 className="text-4xl lg:text-5xl font-bold text-foreground leading-tight">
+        <h1 className="text-4xl lg:text-5xl font-serif font-bold text-foreground leading-tight">
           beWANTED Website & Branding Refresh
         </h1>
       </section>
 
       {/* Objectives */}
       <section id="objectives" className="scroll-mt-24 space-y-6">
-        <h2 className="text-3xl font-medium text-foreground">Objectives</h2>
+        <h2 className="text-4xl font-serif font-medium text-foreground">Objectives</h2>
         <div className="prose prose-lg max-w-none">
           <p className="text-muted-foreground leading-relaxed">
             The goal of this project was to redesign the website and update promotional materials for beWANTED, an annual career event hosted by TU Wien. The event connects TU Wien students with company representatives through scheduled one-on-one sessions, offering a more organized and personal alternative to typical career fairs.
@@ -32,7 +56,7 @@ export function BeWantedContent() {
         </div>
       </section>
       <section id="problem-statement" className="scroll-mt-24 space-y-6">
-        <h2 className="text-3xl font-medium text-foreground">Problem</h2>
+        <h2 className="text-4xl font-serif font-medium text-foreground">Problem</h2>
         <div className="prose prose-lg max-w-none">
           <p className="text-muted-foreground leading-relaxed mb-6">
             The beWANTED website is the main place where TU Wien students explore participating companies and sign up for interview slots. However, the old site lacked clear and reliable information, making it hard for students to engage and apply smoothly.
@@ -85,7 +109,7 @@ export function BeWantedContent() {
 
       {/* Goals */}
       <section id="goals" className="scroll-mt-24 space-y-8">
-        <h2 className="text-3xl font-medium text-foreground">Goals</h2>
+        <h2 className="text-4xl font-serif font-medium text-foreground">Goals</h2>
 
         <ul className="space-y-10 mb-6">
           {/* Item 1 */}
@@ -135,14 +159,14 @@ export function BeWantedContent() {
 
       {/* Ideation */}
       <section id="process" className="scroll-mt-24 space-y-8">
-        <h2 className="text-3xl font-medium text-foreground">Process</h2>
+        <h2 className="text-4xl font-serif font-medium text-foreground">Process</h2>
         <p className="text-muted-foreground leading-relaxed">
             Since this was a smaller project, I joined monthly marketing and event team meetings to review the current design and make sure we were all focused on the same goal: <span className="text-primary italic font-medium">increasing the number of applications</span>. These regular check-ins helped shape the design and kept the project moving in the right direction.
           </p>
 
         {/* Visual Design Language */}
         <div className="space-y-4">
-          <h3 className="text-xl font-medium text-foreground">Research</h3>
+          <h3 className="text-2xl font-serif font-medium text-foreground">Research</h3>
           <p className="text-muted-foreground leading-relaxed">
             I started by researching similar career event websites to see what worked well and what didn't. This showed me the importance of clear navigation, simple layouts, and easy access to event details and application forms.
           </p>
@@ -150,7 +174,7 @@ export function BeWantedContent() {
         </div>
 
         <div className="space-y-4">
-          <h3 className="text-xl font-medium text-foreground">Wireframing</h3>
+          <h3 className="text-2xl font-serif font-medium text-foreground">Wireframing</h3>
           <p className="text-muted-foreground leading-relaxed">
             I started by mapping out the current website's structure and identifying areas for improvement.
           </p>
@@ -171,7 +195,7 @@ export function BeWantedContent() {
 
         {/*Color palette */}
         <div className="space-y-4">
-          <h3 className="text-xl font-medium text-foreground">Color Palette</h3>
+          <h3 className="text-2xl font-serif font-medium text-foreground">Color Palette</h3>
           <p className="text-muted-foreground leading-relaxed">
             I chose brighter colors to enhance visibility and create a more energetic, engaging atmosphere. This decision was aimed at making the platform feel more dynamic and approachable.
           </p>
@@ -204,9 +228,9 @@ export function BeWantedContent() {
         </div>
 
         <div className="space-y-4">
-          <h3 className="text-xl font-medium text-foreground">Logo selection</h3>
+          <h3 className="text-2xl font-serif font-medium text-foreground">Logo selection</h3>
           <p className="text-muted-foreground leading-relaxed">
-            TEXT HERE
+            Logo marks for university and HTU initiatives, featuring the official beWANTED logo customized to fit the brand palette.
           </p>
           <div className="w-full rounded-lg overflow-hidden ">
             <ExpandableImage
@@ -219,7 +243,7 @@ export function BeWantedContent() {
         </div>
 
         <div className="space-y-4">
-          <h3 className="text-xl font-medium text-foreground">Typography</h3>
+          <h3 className="text-2xl font-serif font-medium text-foreground">Typography</h3>
           <p className="text-muted-foreground leading-relaxed">
             I combined two popular sans-serif fonts that are highly legible on digital interfaces, ensuring the text is easy to read across various devices and screen sizes.
           </p>
@@ -251,15 +275,13 @@ export function BeWantedContent() {
 
       {/* Prototyping */}
       <section id="prototyping" className="scroll-mt-24 space-y-8">
-        <h2 className="text-3xl font-bold text-foreground">Prototyping</h2>
+        <h2 className="text-4xl font-serif font-medium text-foreground">Prototyping</h2>
 
         
 
         <div className="space-y-4">
-          <h3 className="text-xl font-medium text-foreground">High-Fidelity Prototypes</h3>
-          <p className="text-muted-foreground leading-relaxed">
-            CHANGE TEXT
-          </p>
+          
+          
           <div className="relative w-full h-auto rounded-xl overflow-hidden from-slate-800 to-slate-900">
             <ExpandableImage
               src="/bewanted/desktop_page.webp"
@@ -297,7 +319,7 @@ export function BeWantedContent() {
 
       {/* Testing */}
       <section id="testing" className="scroll-mt-24 space-y-6">
-        <h2 className="text-3xl font-medium text-foreground">Testing</h2>
+        <h2 className="text-4xl font-serif font-medium text-foreground">Testing</h2>
         <p className="text-muted-foreground leading-relaxed">
           To validate the design, I conducted usability tests with 7 participants, asking them to navigate the website and apply for the event. Key feedback included:
         </p>
@@ -329,13 +351,13 @@ export function BeWantedContent() {
 
       {/* Impact */}
       <section id="impact" className="scroll-mt-24 space-y-8">
-        <h2 className="text-3xl font-bold text-foreground">Impact</h2>
+        <h2 className="text-4xl font-serif font-medium text-foreground">Impact</h2>
 
        
 
         {/* List */}
         <ul className="space-y-6 mb-6">
-            <li className="flex items-start gap-4">
+            <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
               <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0" />
               <div className="flex flex-col gap-2">
@@ -349,7 +371,7 @@ export function BeWantedContent() {
               </div>
             </li>
 
-            <li className="flex items-start gap-4">
+            <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
               <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0" />
               <div className="flex flex-col gap-2">
@@ -365,37 +387,63 @@ export function BeWantedContent() {
 
       </section> 
       {/* Learnings */}
+      {/* Learnings*/}
       <section id="learnings" className="scroll-mt-24 space-y-6">
-        <h2 className="text-3xl font-bold text-foreground">Learnings</h2>
+        <h2 className="text-4xl font-serif font-medium text-foreground">Learnings</h2>
 
-        {/* List */}
-        <div className="space-y-2">
-          <p className="text-lg font-semibold text-foreground">UX Writing Practice</p>
-          <p className="text-muted-foreground leading-relaxed">
-            During this project, I had the opportunity to practice UX writing. I focused on making the content clear and user-friendly, ensuring that the language on the website was simple and easy to understand for students.
-          </p>
-          
-        </div>
-
-        <div className="space-y-2">
-          <p className="text-lg font-semibold text-foreground">First Usability Test Experience</p>
-          <p className="text-muted-foreground leading-relaxed">
-            This project marked my first experience conducting usability tests. I realized how valuable these tests are in identifying real user pain points. The feedback provided direct insights that guided design improvements, helping me refine the website to better meet user needs.
-          </p>
-          
-        </div>
-
-
-        <div className="space-y-2">
-          <p className="text-lg font-semibold text-foreground">Importance of iterative Process</p>
-          <p className="text-muted-foreground leading-relaxed">
-            The iterative nature of this project allowed me to continuously improve the design. Each round of feedback helped me identify areas for refinement and provided opportunities to make meaningful adjustments, ultimately leading to a more polished final product. </p>
-          
-        </div>
-
-
-      </section>
         
+
+        <div className="prose prose-lg max-w-none">
+          
+          
+          <ul className="space-y-6 mb-6">
+            <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
+              {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <div className="flex flex-col gap-2">
+                <p className="text-foreground font-semibold text-lg leading-snug group-hover:text-[#beee2b] transition-colors">
+                  UX Writing Practice
+                </p>
+                <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
+                  During this project, I had the opportunity to practice UX writing. I focused on making the content clear and user-friendly, ensuring that the language on the website was simple and easy to understand for students.
+                </p>
+              </div>
+            </li>
+
+            <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
+              {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <div className="flex flex-col gap-2">
+                <p className="text-foreground font-semibold text-lg leading-snug transition-colors duration-300 ease-in-out group-hover:text-emerald-900 dark:group-hover:text-[#d4ff00]">
+                  First Usability Test Experience
+                </p>
+                <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
+                  This project marked my first experience conducting usability tests. I realized how valuable these tests are in identifying real user pain points. The feedback provided direct insights that guided design improvements, helping me refine the website to better meet user needs.
+                </p>
+              </div>
+            </li>
+
+            <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
+              {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <div className="flex flex-col gap-2 ">
+                <p className="text-foreground font-semibold text-lg leading-snug">
+                  Importance of iterative Process
+                </p>
+                <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
+                  The iterative nature of this project allowed me to continuously improve the design. Each round of feedback helped me identify areas for refinement and provided opportunities to make meaningful adjustments, ultimately leading to a more polished final product.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+        
+
+        
+        
+      </section>
 
       
     

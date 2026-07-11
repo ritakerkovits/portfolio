@@ -5,6 +5,8 @@ import { ExpandableImage } from "@/components/image-lightbox"
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 import { ImageCarousel } from "@/components/image-carousel"
+import { Footer } from "react-day-picker"
+
 
 const projectInfo = {
   timeline: "February 2025",
@@ -33,7 +35,7 @@ export default function MoneyMateCaseStudy() {
 
             {/* Page Title & Description */}
             <div className="max-w-5xl mb-12">
-              <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 text-balance">
+              <h1 className="text-4xl md:text-5xl lg:text-5xl font-serif font-semibold text-foreground mb-6 ">
                 MoneyMate Case Study for UX design workshop
               </h1>
 
@@ -91,6 +93,7 @@ export default function MoneyMateCaseStudy() {
       </div>
 
       {/* Footer */}
+      <Footer />
       
     </main>
   )

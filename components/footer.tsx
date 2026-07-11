@@ -58,7 +58,7 @@ export function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-black/10 dark:border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 ">
+        <div className="border-t border-black/10 dark:border-white/20 pt-4 flex flex-col md:flex-row justify-center items-center gap-4 ">
           <p className="text-black/60 text-sm dark:text-white/60 ">
             &copy; {currentYear} Rita Kerkovits. All rights reserved.
           </p>

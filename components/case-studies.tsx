@@ -14,9 +14,9 @@ const projects = [
   },
   {
     label: "WEBSITE REDESIGN",
-    title: "beWANTED Website & Branding Refresh",
+    title: "beWANTED Website &  Branding Refresh",
     description:
-      "Complete visual identity transformation for the beWANTED career event.",
+      "Complete visual identity transformation and website design for the beWANTED career event.",
     
     image: "/bewanted/bewanted_card_cover.webp",
     link: "/work/bewanted",
@@ -29,9 +29,9 @@ export function FeaturedWorks() {
     <section id="work" className="py-24 relative">
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16 space-y-4">
-          <h2 className="text-2xl font-mono font-semibold tracking-[0.1em] text-[#06402B] dark:text-[#D4F15E] uppercase">Case studies / Portfolio items</h2>
+          <h2 className="text-4xl font-serif font-medium text-foreground mb-4">Selected Cases</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            TEXT
+            Case studies of digital products I've built to solve problems and deliver values for users and businesses. 
           </p>
         </div>
 
@@ -63,7 +63,7 @@ export function FeaturedWorks() {
                     <span className="text-xs font-semibold tracking-[0.2em] text-[#06402B] dark:text-[#D4F15E] uppercase mb-3 block">
                       {project.label}
                     </span>
-                    <h3 className="text-2xl font-medium text-[#1a1a1a] dark:text-[#FAF8F0] mb-3">
+                    <h3 className="text-2xl font-serif font-semibold text-[#1a1a1a] dark:text-[#FAF8F0] mb-3">
                       {project.title}
                     </h3>
                     <p className="text-[#4a4a4a] dark:text-[#FAF8F0]/80 mb-6 leading-relaxed text-sm">
@@ -94,7 +94,7 @@ export function FeaturedWorks() {
                     </span>
                     
                     {/* Primary Heading */}
-                    <h3 className="text-3xl xl:text-4xl font-medium text-[#1a1a1a] dark:text-[#FAF8F0] mb-4 leading-tight">
+                    <h3 className="text-3xl font-serif font-semibold text-[#1a1a1a] dark:text-[#FAF8F0] mb-3">
                       {project.title}
                     </h3>
                     

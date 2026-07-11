@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono, Playfair_Display } from 'next/font/google'
+import { Geist, Geist_Mono, Playfair_Display, DM_Serif_Display } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import { LightboxProvider } from '@/components/image-lightbox'
 import { ThemeToggle } from '@/components/theme-toggle'
@@ -12,11 +12,16 @@ const _playfairDisplay = Playfair_Display({
   variable: "--font-playfair",
   weight: ["400", "500", "600", "700"],
 });
+const _dmSerifDisplay = DM_Serif_Display({
+  subsets: ["latin"],
+  variable: "--font-serif",
+  weight: ["400"],
+});
 
 export const metadata: Metadata = {
-  title: "Rita's gallery",
+  title: "Product & UX/UI Designer Portfolio | Rita Kerkovits",
   description:
-    "A portfolio showcasing my work as a UX/UI designer, and creative problem solver. Explore my projects, case studies, and design philosophy.",
+    "A UX/UI design portfolio focused on solving complex problems and building digital products that deliver value.",
   keywords:
     "UX/UI design, visual storytelling, digital experiences, creative portfolio, user-centered design, design thinking, interaction design, web design, mobile app design, graphic design, branding, typography, color theory, prototyping, wireframing, user research",
  

@@ -10,15 +10,14 @@ export function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left content */}
           <div className="space-y-6">
-            <h1 className="text-5xl lg:text-6xl font-bold text-foreground leading-tight text-balance">
-              Creative Designer & Visual Storyteller
+            <h1 className="text-5xl lg:text-6xl font-serif text-foreground leading-tight text-balance">
+              Product Designer & Web Developer
             </h1>
             
             <AvailabilityBadge />
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
-              I craft compelling digital experiences that bridge the gap between user needs and business goals through
-              thoughtful design and strategic thinking.
+              I listen. I plan. I design. I validate. I deliver.
             </p>
 
             <div className="flex flex-col gap-4 md:flex-row w-full">

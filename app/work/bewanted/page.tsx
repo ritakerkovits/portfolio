@@ -37,11 +37,11 @@ export default function BeWantedStudy() {
 
             {/* Page Title & Description */}
             <div className="max-w-5xl mb-12">
-              <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 text-balance">
+              <h1 className="text-4xl md:text-5xl lg:text-5xl font-serif font-semibold text-foreground mb-6">
                 beWANTED Website & Branding Refresh
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-                A comprehensive UI/UX redesign of the beWANTED career event portal, resulting in a 61% increase in student applications and a unified cross-platform brand identity for the year 2025.
+                A comprehensive UI/UX redesign of the beWANTED career event portal, resulting in a significant increase in student applications and a unified cross-platform brand identity for the year 2025.
               </p>
             </div>
 

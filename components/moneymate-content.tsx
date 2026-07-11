@@ -3,20 +3,44 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import { ImageCarousel } from "@/components/image-carousel"
 import { ProcessTimeline } from "@/components/process-timeline"
+import { Metadata } from 'next'
+
+
+
+
+
+export const metadata: Metadata = {
+  title: 'MoneyMate Case Study | Rita Kerkovits',
+  description: 'See how I transformed a conceptual financial dashboard into a polished, high-fidelity UX prototype during an intensive design course with Kreativstorm.',
+  keywords: ['UX Design', 'UI Design', 'Financial Dashboard', 'Portfolio', 'Wireframe', 'Prototyping', 'Information Architecture', 'Design System', 'Typography', 'Color Palette'],
+  openGraph: {
+    title: 'MoneyMate Case Study | Rita Kerkovits',
+    description: 'Explore the design process and final prototype for the MoneyMate financial dashboard.',
+    url: 'https://kerkorita.com/moneymate',
+    images: [
+      {
+        url: '/logos/logo_green.png', // Placed inside your /public folder
+        width: 1200,
+        height: 630,
+        alt: 'Rita Kerkovits Portfolio Website',
+      },
+    ],
+  },
+}
 
 export function MoneyMateContent() {
   return (
     <article className="space-y-16">
       {/* Hero Section */}
       <section className="space-y-6">
-        <h1 className="text-4xl lg:text-5xl font-bold text-foreground leading-tight">
+        <h1 className="text-4xl lg:text-5xl font-serif font-bold text-foreground leading-tight">
           MoneyMate Case Study for UX design workshop
         </h1>
       </section>
       
       {/* Objectives */}
       <section id="objectives" className="scroll-mt-24 space-y-6">
-        <h2 className="text-3xl font-bold text-foreground">Objectives</h2>
+        <h2 className="text-4xl font-serif font-medium text-foreground">Objectives</h2>
         <div className="prose prose-lg max-w-none">
           <p className="text-muted-foreground leading-relaxed">
             For this case study, the objective was to transform a given concept into a polished design prototype. As part of a UX design course held by Kreativstorm, I was provided with a description of a financial app dashboard called MoneyMate, along with detailed screens and tasks within the app. My goal was to take these ideas and develop them into a fully realized, user-friendly interface that effectively communicates the app's functionality.
@@ -27,11 +51,11 @@ export function MoneyMateContent() {
 
       {/* Process */}
       <section id="process" className="scroll-mt-24 space-y-8">
-        <h2 className="text-3xl font-bold text-foreground">Process</h2>
-        <ProcessTimeline />
+        <h2 className="text-4xl font-serif font-medium text-foreground">Process</h2>
+        
 
         <div className="space-y-4">
-          <h3 className="text-xl font-semibold text-foreground">Discovery</h3>
+          <h3 className="text-2xl font-serif font-medium text-foreground ">Discovery</h3>
           <p className="text-muted-foreground leading-relaxed">
             During the discovery phase, I conducted benchmarking to gather inspiration and understand current trends in the financial industry and fintech applications. This involved analyzing and testing various financial apps to identify best practices, common features, and design patterns. These insights helped shape the direction of the MoneyMate dashboard, ensuring the design would be relevant and user-friendly within the competitive fintech landscape.
           </p>
@@ -40,7 +64,7 @@ export function MoneyMateContent() {
 
 
         <div className="space-y-4">
-          <h3 className="text-xl font-semibold text-foreground">Information Architecture</h3>
+          <h3 className="text-2xl font-serif font-medium text-foreground ">Information Architecture</h3>
           <p className="text-muted-foreground leading-relaxed">
             The Information Architecture illustrates the structure and organization of MoneyMate's content and features, also detailing the specific actions users can perform on each page. This mapping helped visualize how different features connect and interact, which ensures a seamless user flow. The IA provided a solid foundation for the wireframing and overall design process.
           </p>
@@ -55,7 +79,7 @@ export function MoneyMateContent() {
         </div>
 
         <div className="space-y-4 hidden">
-          <h3 className="text-xl font-semibold text-foreground">Personas</h3>
+          <h3 className="text-2xl font-serif font-medium text-foreground ">Personas</h3>
           <p className="text-muted-foreground leading-relaxed">
             Based on the research findings, I developed user personas that represent the typical users of MoneyMate. 
           </p>
@@ -70,7 +94,7 @@ export function MoneyMateContent() {
         </div>
 
         <div className="space-y-4">
-          <h3 className="text-xl font-semibold text-foreground">Wireframing</h3>
+          <h3 className="text-2xl font-serif font-medium text-foreground ">Wireframing</h3>
           <p className="text-muted-foreground leading-relaxed">
             In the wireframing phase, I created simple, rough visualizations of the app to get a clear idea of its overall structure and layout. This helped me bring my ideas to life in a visible way, making it easier to think through how everything would work together. It was a useful step for exploring different options and planning the app's flow before moving on to more detailed design.
           </p>
@@ -105,7 +129,7 @@ export function MoneyMateContent() {
         </div>
 
         <div className="space-y-4">
-          <h3 className="text-xl font-semibold text-foreground">Color Palette</h3>
+          <h3 className="text-2xl font-serif font-medium text-foreground ">Color Palette</h3>
           <p className="text-muted-foreground leading-relaxed">
             For the color palette, I chose green because it's often linked to wealth and also conveys a sense of harmony, which fits well with a financial management app. I added yellow to represent the color of gold coins, bringing a more optimistic vibe to the design. 
           </p>
@@ -135,7 +159,7 @@ export function MoneyMateContent() {
         </div>
 
         <div className="space-y-4">
-          <h3 className="text-xl font-semibold text-foreground">UI Kit</h3>
+          <h3 className="text-2xl font-serif font-medium text-foreground">UI Kit</h3>
           <p className="text-muted-foreground leading-relaxed">
             After finalizing the colors and typography, I created a quick UI kit containing all the recurring elements needed for the prototype. The prototype was built on the polished wireframes, with adjustments to element positioning and container widths to better fit the mobile screen and enhance the overall color scheme.
           </p>
@@ -151,7 +175,7 @@ export function MoneyMateContent() {
         </div>
 
         <div className="space-y-4">
-                  <h3 className="text-xl font-medium text-foreground">Typography</h3>
+                  <h3 className="text-2xl font-serif font-medium text-foreground">Typography</h3>
                   <p className="text-muted-foreground leading-relaxed">
                     For typography, I chose Arvo for headlines and the logo because of its decorative serif style, which adds character. Since serif fonts aren't always ideal for longer digital text, I paired Arvo with Geologica, a more structured and balanced font. Geologica is versatile and works well in different weights, making it a great choice for body text and supporting content throughout the app.
                   </p>
@@ -187,10 +211,10 @@ export function MoneyMateContent() {
 
       {/* Prototyping */}
       <section id="prototyping" className="scroll-mt-24 space-y-8">
-        <h2 className="text-3xl font-bold text-foreground">Prototyping</h2>
+        <h2 className="text-4xl font-serif font-medium text-foreground">Prototyping</h2>
 
         <div className="space-y-4">
-          <h3 className="text-xl font-semibold text-foreground">Final Visual Design</h3>
+          <h3 className="text-2xl font-serif font-medium text-foreground">Final Visual Design</h3>
           <p className="text-muted-foreground leading-relaxed">
             The final 
           </p>
@@ -232,7 +256,7 @@ export function MoneyMateContent() {
           </div>
         </div>
         <div className="space-y-4">
-          <h3 className="text-xl font-semibold text-foreground">Mockups</h3>
+          <h3 className="text-2xl font-serif font-medium text-foreground">Mockups</h3>
           <p className="text-muted-foreground leading-relaxed">
             The presentation created for the final submission of the project included mockups of the app's key screens.
           </p>
@@ -247,35 +271,59 @@ export function MoneyMateContent() {
       </section>
 
       
-      {/* Launching */}
-      <section id="learnings" className="scroll-mt-24 space-y-8">
-        <h2 className="text-3xl font-bold text-foreground">Learnings</h2>
+      {/* Learnings*/}
+      <section id="learnings" className="scroll-mt-24 space-y-6">
+        <h2 className="text-4xl font-serif font-medium text-foreground">Learnings</h2>
 
         
 
-        <div className="space-y-4">
-          <h3 className="text-xl font-semibold text-foreground">Key Learnings</h3>
-          <div className="space-y-4">
-            <div>
-              <h4 className="font-semibold text-foreground mb-2">Importance of Wireframing</h4>
-              <p className="text-muted-foreground leading-relaxed">
-                Building the wireframe early on is essential to define the structure and guide the final prototype.
-              </p>
-            </div>
-            <div>
-              <h4 className="font-semibold text-foreground mb-2">Font Pairing</h4>
-              <p className="text-muted-foreground leading-relaxed">
-                Combining different fonts can create a balanced and engaging visual hierarchy.
-              </p>
-            </div>
-            <div>
-              <h4 className="font-semibold text-foreground mb-2">Color Usage</h4>
-              <p className="text-muted-foreground leading-relaxed">
-                I learned that yellow is a bold color choice because its contrast ratio can be challenging to balance with other colors, so I will use it more cautiously in future designs.
-              </p>
-            </div>
-          </div>
+        <div className="prose prose-lg max-w-none">
+          
+          
+          <ul className="space-y-6 mb-6">
+            <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
+              {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <div className="flex flex-col gap-2">
+                <p className="text-foreground font-semibold text-lg leading-snug group-hover:text-[#beee2b] transition-colors">
+                  Importance of Wireframing
+                </p>
+                <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
+                  Building the wireframe early on is essential to define the structure and guide the final prototype.
+                </p>
+              </div>
+            </li>
+
+            <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
+              {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <div className="flex flex-col gap-2">
+                <p className="text-foreground font-semibold text-lg leading-snug transition-colors duration-300 ease-in-out group-hover:text-emerald-900 dark:group-hover:text-[#d4ff00]">
+                  Font Pairing
+                </p>
+                <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
+                  Combining different fonts can create a balanced and engaging visual hierarchy.
+                </p>
+              </div>
+            </li>
+
+            <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
+              {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <div className="flex flex-col gap-2 ">
+                <p className="text-foreground font-semibold text-lg leading-snug">
+                  Color Usage
+                </p>
+                <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
+                  I learned that yellow is a bold color choice because its contrast ratio can be challenging to balance with other colors, so I will use it more cautiously in future designs.
+                </p>
+              </div>
+            </li>
+
+          </ul>
         </div>
+
+        
 
         
         
