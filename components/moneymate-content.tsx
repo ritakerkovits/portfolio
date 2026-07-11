@@ -3,30 +3,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import { ImageCarousel } from "@/components/image-carousel"
 import { ProcessTimeline } from "@/components/process-timeline"
-import { Metadata } from 'next'
 
-
-
-
-
-export const metadata: Metadata = {
-  title: 'MoneyMate Case Study | Rita Kerkovits',
-  description: 'See how I transformed a conceptual financial dashboard into a polished, high-fidelity UX prototype during an intensive design course with Kreativstorm.',
-  keywords: ['UX Design', 'UI Design', 'Financial Dashboard', 'Portfolio', 'Wireframe', 'Prototyping', 'Information Architecture', 'Design System', 'Typography', 'Color Palette'],
-  openGraph: {
-    title: 'MoneyMate Case Study | Rita Kerkovits',
-    description: 'Explore the design process and final prototype for the MoneyMate financial dashboard.',
-    url: 'https://kerkorita.com/moneymate',
-    images: [
-      {
-        url: '/logos/logo_green.png', // Placed inside your /public folder
-        width: 1200,
-        height: 630,
-        alt: 'Rita Kerkovits Portfolio Website',
-      },
-    ],
-  },
-}
 
 export function MoneyMateContent() {
   return (

@@ -3,30 +3,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 import { ExpandableImage } from "@/components/image-lightbox"
-import { Metadata } from 'next'
 
-
-
-
-
-export const metadata: Metadata = {
-  title: 'PitchCave Redesign & Rebrand | Rita Kerkovits',
-  description: 'See how I redesigned the PitchCave platform to scale the website and improve user experience.',
-  keywords: ['UX Design', 'UI Design', 'Website Redesign', 'Portfolio', 'Wireframe', 'Prototyping', 'Design System', 'Typography', 'Color Palette'],
-  openGraph: {
-    title: 'PitchCave Redesign & Rebrand | Rita Kerkovits',
-    description: 'Explore the design process and final prototype for the PitchCave redesign.',
-    url: 'https://kerkorita.com/pitchcave',
-    images: [
-      {
-        url: '/logos/logo_green.png', // Placed inside your /public folder
-        width: 1200,
-        height: 630,
-        alt: 'Rita Kerkovits Portfolio Website',
-      },
-    ],
-  },
-}
 
 export function PitchCaveContent() {
   return (

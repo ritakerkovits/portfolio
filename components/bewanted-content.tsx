@@ -3,30 +3,7 @@ import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import { ExpandableImage } from "@/components/image-lightbox"
-import { Metadata } from 'next'
 
-
-
-
-
-export const metadata: Metadata = {
-  title: 'beWANTED Website Redesign | Rita Kerkovits',
-  description: 'See how I redesigned the beWANTED career event website to improve user experience and engagement.',
-  keywords: ['UX Design', 'UI Design', 'Website Redesign', 'Portfolio', 'Wireframe', 'Prototyping', 'Design System', 'Typography', 'Color Palette'],
-  openGraph: {
-    title: 'beWANTED Website Redesign | Rita Kerkovits',
-    description: 'Explore the design process and final prototype for the beWANTED website redesign.',
-    url: 'https://kerkorita.com/bewanted',
-    images: [
-      {
-        url: '/logos/logo_green.png', // Placed inside your /public folder
-        width: 1200,
-        height: 630,
-        alt: 'Rita Kerkovits Portfolio Website',
-      },
-    ],
-  },
-}
 
 
 

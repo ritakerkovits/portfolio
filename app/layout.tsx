@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     url: 'https://kerkorita.com',
     images: [
       {
-        url: '/logos/logo_green.png', // Placed inside your /public folder
+        url: '/logos/logo_green.png', 
         width: 1200,
         height: 630,
         alt: 'Rita Kerkovits Portfolio Website',

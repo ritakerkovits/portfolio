@@ -6,6 +6,30 @@ import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 import { ImageCarousel } from "@/components/image-carousel"
 import { Footer } from "react-day-picker"
+import { Metadata } from 'next'
+
+
+
+
+
+export const metadata: Metadata = {
+  title: 'MoneyMate Case Study | Rita Kerkovits',
+  description: 'See how I transformed a conceptual financial dashboard into a polished, high-fidelity UX prototype during an intensive design course with Kreativstorm.',
+  keywords: ['UX Design', 'UI Design', 'Financial Dashboard', 'Portfolio', 'Wireframe', 'Prototyping', 'Information Architecture', 'Design System', 'Typography', 'Color Palette'],
+  openGraph: {
+    title: 'MoneyMate Case Study | Rita Kerkovits',
+    description: 'Explore the design process and final prototype for the MoneyMate financial dashboard.',
+    url: 'https://kerkorita.com/work/moneymate',
+    images: [
+      {
+        url: '/logos/logo_green.png', 
+        width: 1200,
+        height: 630,
+        alt: 'Rita Kerkovits Portfolio Website',
+      },
+    ],
+  },
+}
 
 
 const projectInfo = {
