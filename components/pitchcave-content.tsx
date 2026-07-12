@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 import { ExpandableImage } from "@/components/image-lightbox"
+import VersionTabs from "@/components/versions-tab";
 
 
 export function PitchCaveContent() {
@@ -50,7 +51,7 @@ export function PitchCaveContent() {
           <ul className="space-y-10 mb-6">
             <li className="flex items-start gap-2  transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
-              <ArrowRight className="w-4 h-4 stroke-[3] text-emerald-900 dark:text-[#d4ff00] mt-1 shrink-0" />
+              <ArrowRight className="w-4 h-4 stroke-3 text-emerald-900 dark:text-[#d4ff00] mt-1 shrink-0" />
               <div className="flex flex-col gap-2">
                 <p className="text-foreground font-semibold text-lg leading-snug">
                   Restructure information architecture
@@ -63,7 +64,7 @@ export function PitchCaveContent() {
 
             <li className="flex items-start gap-2  transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
-              <ArrowRight className="w-4 h-4 stroke-[3] text-emerald-900 dark:text-[#d4ff00] mt-1 shrink-0" />
+              <ArrowRight className="w-4 h-4 stroke-3 text-emerald-900 dark:text-[#d4ff00] mt-1 shrink-0" />
               <div className="flex flex-col gap-2">
                 <p className="text-foreground font-semibold text-lg leading-snug">
                   Refresh the brand look
@@ -76,7 +77,7 @@ export function PitchCaveContent() {
 
             <li className="flex items-start gap-2  transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
-              <ArrowRight className="w-4 h-4 stroke-[3] text-emerald-900 dark:text-[#d4ff00] mt-1 shrink-0" />
+              <ArrowRight className="w-4 h-4 stroke-3 text-emerald-900 dark:text-[#d4ff00] mt-1 shrink-0" />
               <div className="flex flex-col gap-2">
                 <p className="text-foreground font-semibold text-lg leading-snug">
                   Scale the Platform
@@ -221,20 +222,42 @@ export function PitchCaveContent() {
       {/* Prototyping */}
       <section id="prototyping" className="scroll-mt-24 space-y-8">
         <h2 className="text-4xl font-serif font-medium text-foreground">Prototyping</h2>
-
-        {/* Brand Guidelines */}
-        <div className="space-y-4">
-          
-          
-          <div className="w-full rounded-lg overflow-hidden">
-            <ExpandableImage
-              src="/pitchcave/pitch_cave_proto.webp" 
-              alt="text" 
-              className="w-full h-auto object-contain rounded-md shadow-2xl"
-              sizes="(max-width: 768px) 100vw, 50vw"
-            />
-          </div>
-        </div>
+        
+        <VersionTabs 
+          mobileContent={
+            <div className="w-full  mx-auto rounded-lg overflow-hidden">
+              <ExpandableImage
+                src="/pitchcave/mobile-proto.webp" // Your mobile layout screenshot path
+                alt="PitchCave Mobile Prototype View" 
+                className="w-full h-auto object-contain rounded-md shadow-2xl"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </div>
+          }
+          desktopContent={
+            <div className="w-full space-y-8">
+              <div className="rounded-lg overflow-hidden">
+              <ExpandableImage
+                src="/pitchcave/desktop-proto.webp" // Your existing desktop layout screenshot path
+                alt="PitchCave Desktop Prototype View" 
+                className="w-full h-auto object-contain rounded-md shadow-2xl"
+                sizes="(max-width: 768px) 100vw, 100vw"
+              />
+            </div>
+            <div className="rounded-lg overflow-hidden">
+              <ExpandableImage
+                src="/pitchcave/desktop-proto2.webp" // Your existing desktop layout screenshot path
+                alt="PitchCave Desktop Prototype View" 
+                className="w-full h-auto object-contain rounded-md shadow-2xl"
+                sizes="(max-width: 768px) 100vw, 100vw"
+              />
+            </div>
+            </div>
+            
+          }
+        />
+        
+        
 
         
       </section>
@@ -302,7 +325,7 @@ export function PitchCaveContent() {
           <ul className="space-y-6 mb-6">
             <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
-              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-135deg" />
               <div className="flex flex-col gap-2">
                 <p className="text-foreground font-semibold text-lg leading-snug group-hover:text-[#beee2b] transition-colors">
                   Getting comfortable with Wix
@@ -315,7 +338,7 @@ export function PitchCaveContent() {
 
             <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
-              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-135deg" />
               <div className="flex flex-col gap-2">
                 <p className="text-foreground font-semibold text-lg leading-snug transition-colors duration-300 ease-in-out group-hover:text-emerald-900 dark:group-hover:text-[#d4ff00]">
                   Keeping everything organized
@@ -328,7 +351,7 @@ export function PitchCaveContent() {
 
             <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
-              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-135deg" />
               <div className="flex flex-col gap-2 ">
                 <p className="text-foreground font-semibold text-lg leading-snug">
                   Putting Accessibility into practice
@@ -341,7 +364,7 @@ export function PitchCaveContent() {
 
             <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
-              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-135deg" />
               <div className="flex flex-col gap-2 ">
                 <p className="text-foreground font-semibold text-lg leading-snug">
                   The power of regular feedback

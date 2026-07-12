@@ -42,7 +42,7 @@ export function BeWantedContent() {
           <ul className="space-y-10 mb-6">
             <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
-              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-135deg" />
               <div className="flex flex-col gap-2">
                 <p className="text-foreground font-semibold text-lg leading-snug group-hover:text-[#beee2b] transition-colors">
                   Outdated content
@@ -56,7 +56,7 @@ export function BeWantedContent() {
 
             <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
-              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-135deg" />
               <div className="flex flex-col gap-2">
                 <p className="text-foreground font-semibold text-lg leading-snug transition-colors duration-300 ease-in-out group-hover:text-emerald-900 dark:group-hover:text-[#d4ff00]">
                   Inconsistent visual style
@@ -69,7 +69,7 @@ export function BeWantedContent() {
 
             <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
-              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-135deg" />
               <div className="flex flex-col gap-2 ">
                 <p className="text-foreground font-semibold text-lg leading-snug">
                   The need for reliable information
@@ -94,7 +94,7 @@ export function BeWantedContent() {
             {/* Thick arrow icon aligned cleanly with mt-1 to match text-lg header. 
               Color: Dark green in light mode, Neon Lemon in dark mode.
             */}
-            <ArrowRight className="w-4 h-4 stroke-[3] text-emerald-900 dark:text-[#d4ff00] mt-1 shrink-0" />
+            <ArrowRight className="w-4 h-4 stroke-3 text-emerald-900 dark:text-[#d4ff00] mt-1 shrink-0" />
             <div className="flex flex-col gap-2">
               <p className="text-lg font-semibold text-foreground leading-snug ">
                 Encourage more applications
@@ -107,7 +107,7 @@ export function BeWantedContent() {
 
           {/* Item 2 */}
           <li className="flex items-start gap-2  transition-all duration-300 ease-in-out hover:translate-x-2">
-            <ArrowRight className="w-4 h-4 stroke-[3] text-emerald-900 dark:text-[#d4ff00] mt-1 shrink-0" />
+            <ArrowRight className="w-4 h-4 stroke-3 text-emerald-900 dark:text-[#d4ff00] mt-1 shrink-0" />
             <div className="flex flex-col gap-2">
               <p className="text-lg font-semibold text-foreground leading-snug">
                 Create a consistent visual identity
@@ -120,7 +120,7 @@ export function BeWantedContent() {
 
           {/* Item 3 */}
           <li className="flex items-start gap-2  transition-all duration-300 ease-in-out hover:translate-x-2">
-            <ArrowRight className="w-4 h-4 stroke-[3] text-emerald-900 dark:text-[#d4ff00] mt-1 shrink-0" />
+            <ArrowRight className="w-4 h-4 stroke-3 text-emerald-900 dark:text-[#d4ff00] mt-1 shrink-0" />
             <div className="flex flex-col gap-2">
               <p className="text-lg font-semibold text-foreground leading-snug">
                 Provide a clear platform for students
@@ -388,7 +388,7 @@ export function BeWantedContent() {
           <ul className="space-y-6 mb-6">
             <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
-              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-135deg" />
               <div className="flex flex-col gap-2">
                 <p className="text-foreground font-semibold text-lg leading-snug group-hover:text-[#beee2b] transition-colors">
                   UX Writing Practice
@@ -401,7 +401,7 @@ export function BeWantedContent() {
 
             <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
-              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-135deg" />
               <div className="flex flex-col gap-2">
                 <p className="text-foreground font-semibold text-lg leading-snug transition-colors duration-300 ease-in-out group-hover:text-emerald-900 dark:group-hover:text-[#d4ff00]">
                   First Usability Test Experience
@@ -414,7 +414,7 @@ export function BeWantedContent() {
 
             <li className="flex items-start gap-4 transition-all duration-300 ease-in-out hover:translate-x-2">
               {/* Rhombus marker cleanly aligned with mt-1.5 to match center height of text-lg header */}
-              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-[135deg]" />
+              <span className="w-2 h-2 bg-primary rotate-45 mt-2 shrink-0 transition-transform duration-300 ease-in-out group-hover:rotate-135deg" />
               <div className="flex flex-col gap-2 ">
                 <p className="text-foreground font-semibold text-lg leading-snug">
                   Importance of iterative Process

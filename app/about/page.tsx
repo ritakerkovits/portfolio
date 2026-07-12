@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: 'https://kerkorita.com/about',
     images: [
       {
-        url: 'https://kerkorita.com/logos/opengraph-dark.png', 
+        url: 'https://kerkorita.com/logos/opengraph-light.png', 
         width: 1200,
         height: 630,
         alt: 'Rita Kerkovits Portfolio Website',
@@ -94,7 +94,7 @@ export default function AboutPage() {
 
             <div className="relative">
               {/* Vertical timeline line */}
-              <div className="absolute left-[7px] top-3 bottom-3 w-px bg-primary/30" />
+              <div className="absolute left-1.75 top-3 bottom-3 w-px bg-primary/30" />
 
               
               <div className="relative pl-12 pb-32">
@@ -354,28 +354,28 @@ export default function AboutPage() {
 
             {/* Image Gallery - Horizontal Row */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <div className="aspect-[4/3] overflow-hidden">
+              <div className="aspect-4/3 overflow-hidden">
                 <img
                   src="/mountain-hiking-trail-with-forest-and-scenic-view.jpg"
                   alt="Hiking trail with scenic mountain view"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="aspect-[4/3] overflow-hidden">
+              <div className="aspect-4/3 overflow-hidden">
                 <img
                   src="/vintage-film-camera-photography.jpg"
                   alt="Film photography hobby"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="aspect-[4/3] overflow-hidden">
+              <div className="aspect-4/3 overflow-hidden">
                 <img
                   src="/design-workshop-mentoring-session.jpg"
                   alt="Design workshop and mentoring"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="aspect-[4/3] overflow-hidden">
+              <div className="aspect-4/3 overflow-hidden">
                 <img
                   src="/conference-speaking-presentation.jpg"
                   alt="Speaking at design conference"
