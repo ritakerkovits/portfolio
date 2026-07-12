@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: 'https://kerkorita.com/work/pitch-cave',
     images: [
       {
-        url: '/logos/logo_green.png', // Placed inside your /public folder
+        url: 'https://kerkorita.com/logos/opengraph-light.png', // Placed inside your /public folder
         width: 1200,
         height: 630,
         alt: 'Rita Kerkovits Portfolio Website',

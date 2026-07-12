@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import { AvailabilityBadge } from "@/components/availability-badge"
 import { ArrowUpRight } from "lucide-react"
+import { ArrowDown } from "lucide-react"
 
 export function HeroSection() {
   return (
@@ -28,6 +29,9 @@ export function HeroSection() {
               >
                 <a href="/#work" className="justify-center">
                   View My Work
+                  
+                
+                
                 </a>
               </Button>
               <Button

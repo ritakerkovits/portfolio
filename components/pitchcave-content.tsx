@@ -225,15 +225,13 @@ export function PitchCaveContent() {
         {/* Brand Guidelines */}
         <div className="space-y-4">
           
-          <p className="text-muted-foreground leading-relaxed">
-            TEXT
-          </p>
-          <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-gradient-to-br from-stone-700 to-stone-800">
+          
+          <div className="w-full rounded-lg overflow-hidden">
             <ExpandableImage
-              src="/" 
+              src="/pitchcave/pitch_cave_proto.webp" 
               alt="text" 
-              fill 
-              className="object-cover" 
+              className="w-full h-auto object-contain rounded-md shadow-2xl"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
         </div>

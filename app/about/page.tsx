@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: 'https://kerkorita.com/about',
     images: [
       {
-        url: '/logos/logo_green.png', // Placed inside your /public folder
+        url: 'https://kerkorita.com/logos/opengraph-dark.png', 
         width: 1200,
         height: 630,
         alt: 'Rita Kerkovits Portfolio Website',
@@ -61,7 +61,7 @@ export default function AboutPage() {
                   size="lg"
                   variant="outline"
                   // Cleaned: All color swaps and animations are now unified on the parent button container
-                  className="w-full md:w-auto px-6 py-6 text-md  group border border-primary dark:border-border text-foreground bg-card rounded-none transition-all duration-300 ease-out hover:bg-primary hover:text-background dark:hover:bg-primary "
+                  className="w-full md:w-auto px-6 py-6 text-md bg-primary text-primary-foreground dark:bg-accent group border border-primary dark:border-border rounded-none transition-all duration-300 ease-out hover:bg-primary/80 hover:text-primary-foreground dark:hover:bg-accent/80  "
                   asChild 
                 >
                   <a href="https://www.linkedin.com/in/rita-kerkovits/" target="_blank"  className="justify-center">

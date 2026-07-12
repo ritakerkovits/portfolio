@@ -270,7 +270,7 @@ export function BeWantedContent() {
             />
           </div>
           
-          <div className="relative w-full h-auto rounded-xl overflow-hidden from-slate-800 to-slate-900">
+          <div className="relative w-full h-auto rounded-xl overflow-hidden ">
             <ExpandableImage
               src="/bewanted/mobile_version.webp"
               alt=""
@@ -281,7 +281,7 @@ export function BeWantedContent() {
             />
           </div>
           
-          <div className="relative w-full h-auto rounded-xl overflow-hidden from-slate-800 to-slate-900">
+          <div className="relative w-full h-auto rounded-xl overflow-hidden ">
             <ExpandableImage
               src="/bewanted/bewanted_mockup.webp"
               alt=""
@@ -289,6 +289,18 @@ export function BeWantedContent() {
               height={1600} 
               className="object-contain"
               sizes="(max-width: 768px) 100vw, 80vw"
+            />
+          </div>
+          <h3 className="text-2xl font-serif font-medium text-foreground mt-12">Poster Mockup</h3>
+          <p className="text-muted-foreground leading-relaxed">
+            A poster was also created for the event which was displayed in the university's main hall to promote the event and encourage student participation.
+          </p>
+          <div className="relative w-full h-auto rounded-xl overflow-hidden ">
+            <ExpandableImage
+              src="/bewanted/poster_mockup.webp"
+              alt=""
+              className="w-full h-auto object-contain rounded-md shadow-2xl"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
         </div>
