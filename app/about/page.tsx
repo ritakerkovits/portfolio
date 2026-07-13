@@ -90,7 +90,7 @@ export default function AboutPage() {
 
           {/* Experience Timeline Section */}
           <section className="mb-32">
-            <h2 className="text-4xl font-mono text-foreground mb-12">Experience</h2>
+            <h2 className="text-4xl font-serif font-medium text-foreground mb-12">Experience</h2>
 
             <div className="relative">
               {/* Vertical timeline line */}
@@ -105,8 +105,10 @@ export default function AboutPage() {
                   {/* Left: Date, Company, Role */}
                   <div>
                     <p className="text-sm text-muted-foreground font-medium uppercase tracking-wider mb-2">2025 MARCH — PRESENT</p>
+                    
                     <h3 className="text-xl font-mono font-semibold uppercase text-primary  mb-1">UX Designer & <br />Website builder</h3>
-                    <p className="text-sm font-medium uppercase text-muted-foreground tracking-wider">Freelance</p>
+                    <p className="text-sm font-medium uppercase text-muted-foreground tracking-wider mb-2">Freelance</p>
+                    <p className="text-xs font-regular  text-muted-foreground tracking-wider uppercase">Vienna | Austria</p>
                   </div>
 
                   {/* Right: Description + Bullet Points */}
@@ -158,8 +160,11 @@ export default function AboutPage() {
                   {/* Left: Date, Company, Role */}
                   <div>
                     <p className="text-sm text-muted-foreground font-medium uppercase tracking-wider mb-2">2024 MAY — 2024 AUG</p>
+                    
                     <h3 className="text-xl font-mono font-semibold uppercase text-primary mb-1">Business Analyst</h3>
-                    <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider">Intuitech</p>
+                    <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-2">Intuitech</p>
+                    <p className="text-xs font-regular  text-muted-foreground tracking-wider  uppercase">Budapest | Hungary</p>
+                    
                   </div>
 
                   {/* Right: Description */}
@@ -192,7 +197,7 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
               {/* Education Column */}
               <div>
-                <h2 className="text-4xl font-mono text-foreground mb-8">Education</h2>
+                <h2 className="text-4xl font-serif font-medium text-foreground mb-8">Education</h2>
 
                 {/* TU WIEN */}
                 <div className="mb-12">
@@ -236,7 +241,7 @@ export default function AboutPage() {
 
               {/* Certifications & Projects Column */}
               <div>
-                <h2 className="text-4xl font-mono text-foreground mb-8">Certifications &amp; Projects</h2>
+                <h2 className="text-4xl font-serif font-medium text-foreground mb-8">Certifications &amp; Projects</h2>
 
                 {/* Udemy UX Course */}
                 
@@ -284,7 +289,7 @@ export default function AboutPage() {
 
           {/* Technical Toolset Section */}
           <section className="mb-32">
-            <h2 className="text-4xl font-garamond text-foreground mb-10">Technical Toolset</h2>
+            <h2 className="text-4xl font-serif font-medium text-foreground mb-10">Technical Toolset</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
               {/* Web Development */}

@@ -18,7 +18,7 @@ export function HeroSection() {
             <AvailabilityBadge />
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
-              I listen. I plan. I design. I validate. I deliver.
+              I listen, plan, design, validate and deliver.
             </p>
 
             <div className="flex flex-col gap-4 md:flex-row w-full">
