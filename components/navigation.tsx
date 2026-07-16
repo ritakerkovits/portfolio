@@ -266,7 +266,7 @@ export function Navigation() {
         </Link>
         
         <Link 
-          href="/CV_Rita.pdf" 
+          href="/Rita_Kerkovits_CV.pdf" 
           target="_blank"          
           rel="noopener noreferrer"
           className={`group inline-flex items-center text-xl gap-1 ${linkStyles("/CV_Rita.pdf")}`}
@@ -275,7 +275,7 @@ export function Navigation() {
           <ArrowUpRight 
             className="w-6 h-6 transition-transform duration-300 ease-out transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" 
           />
-          {underlineElement("/CV_Rita.pdf")}
+          {underlineElement("/Rita_Kerkovits_CV.pdf")}
         </Link>
       </div>
     </nav>

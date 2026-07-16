@@ -42,7 +42,7 @@ export function HeroSection() {
                   asChild 
                 >
                   <a 
-                    href="/CV_Rita.pdf" 
+                    href="/Rita_Kerkovits_CV.pdf" 
                     target="_blank"          
                     rel="noopener noreferrer" 
                     className="inline-flex items-center justify-center gap-2 "
