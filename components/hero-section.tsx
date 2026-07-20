@@ -42,7 +42,7 @@ export function HeroSection() {
                   asChild 
                 >
                   <a 
-                    href="/Rita_Kerkovits_CV.pdf" 
+                    href="/CV_Rita_Kerkovits_UX_UI_Designer.pdf" 
                     target="_blank"          
                     rel="noopener noreferrer" 
                     className="inline-flex items-center justify-center gap-2 "

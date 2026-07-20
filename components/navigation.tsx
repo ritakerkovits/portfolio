@@ -266,16 +266,16 @@ export function Navigation() {
         </Link>
         
         <Link 
-          href="/Rita_Kerkovits_CV.pdf" 
+          href="/CV_Rita_Kerkovits_UX_UI_Designer.pdf" 
           target="_blank"          
           rel="noopener noreferrer"
-          className={`group inline-flex items-center text-xl gap-1 ${linkStyles("/CV_Rita.pdf")}`}
+          className={`group inline-flex items-center text-xl gap-1 ${linkStyles("^/CV_Rita_Kerkovits_UX_UI_Designer.pdf")}`}
         >
           <span>Resume</span>
           <ArrowUpRight 
             className="w-6 h-6 transition-transform duration-300 ease-out transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" 
           />
-          {underlineElement("/Rita_Kerkovits_CV.pdf")}
+          {underlineElement("/CV_Rita_Kerkovits_UX_UI_Designer.pdf")}
         </Link>
       </div>
     </nav>
