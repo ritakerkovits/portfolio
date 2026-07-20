@@ -157,7 +157,7 @@ export function Navigation() {
   const underlineElement = (path: string) => (
     <span 
       className={`
-        absolute bottom-0 left-0 w-full h-[2px] 
+        absolute bottom-0 left-0 w-full h-0.5 
         bg-[#06402B] dark:bg-[#D4F15E] 
         transition-all duration-300 ease-out
         ${isActive(path) 
@@ -193,16 +193,17 @@ export function Navigation() {
               {underlineElement("/about")}
             </Link>
             <Link 
-              href="/CV_Rita.pdf" 
+              href="/CV_Rita_Kerkovits_UX_UI_Designer.pdf" 
               target="_blank"          
               rel="noopener noreferrer"
-              className={`group inline-flex items-center gap-1 ${linkStyles("/CV_Rita.pdf")}`}
+              
+              className={`group inline-flex items-center gap-1 ${linkStyles("/CV_Rita_Kerkovits_UX_UI_Designer.pdf")}`}
             >
               <span>Resume</span>
               <ArrowUpRight 
                 className="w-4 h-4 transition-transform duration-300 ease-out transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" 
               />
-              {underlineElement("/CV_Rita.pdf")}
+              {underlineElement("/CV_Rita_Kerkovits_UX_UI_Designer.pdf")}
             </Link>
 
             
@@ -217,21 +218,21 @@ export function Navigation() {
           >
             {/* Top Line */}
             <span 
-              className={`w-full h-[2px] bg-foreground rounded absolute transition-all duration-300 ease-out origin-center
+              className={`w-full h-0.5 bg-foreground rounded absolute transition-all duration-300 ease-out origin-center
                 ${isOpen ? "rotate-45 translate-y-0" : "-translate-y-1.5"}
               `} 
             />
             
             {/* Middle Line */}
             <span 
-              className={`w-full h-[2px] bg-foreground rounded absolute transition-all duration-300 ease-out
+              className={`w-full h-0.5 bg-foreground rounded absolute transition-all duration-300 ease-out
                 ${isOpen ? "opacity-0 scale-x-0" : "opacity-100 scale-x-100"}
               `} 
             />
             
             {/* Bottom Line */}
             <span 
-              className={`w-full h-[2px] bg-foreground rounded absolute transition-all duration-300 ease-out origin-center
+              className={`w-full h-0.5 bg-foreground rounded absolute transition-all duration-300 ease-out origin-center
                 ${isOpen ? "-rotate-45 translate-y-0" : "translate-y-1.5"}
               `} 
             />
