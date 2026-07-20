@@ -255,7 +255,7 @@ export default function AboutPage() {
                     Established my foundations in web and mobile design through a core understanding of user-centred design principles.
                   </p>
                   <a
-                    href="/certification_udemy.pdf"
+                    href="/Rita_Kerkovits_Udemy_Certification.pdf"
                     target="_blank"          
                     rel="noopener noreferrer"
                     className="group inline-flex items-center gap-2 text-primary text-sm underline underline-offset-4 hover:text-primary/80 transition-colors after:absolute after:inset-0 after:z-10"
